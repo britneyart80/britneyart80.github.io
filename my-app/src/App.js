@@ -1,23 +1,21 @@
-import './style/App.scss';
+import styles from "./style/App.module.scss";
+import Home from "./home/home";
+import Nav from "./components/nav/nav";
+import { Routes, Route } from "react-router-dom";
+import "materialize-css/dist/css/materialize.min.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.container}>
+      <Nav></Nav>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="about" element={<Home/>}/>
+        <Route path="code" element={<Home/>}/>
+        <Route path="art-and-design" element={<Home/>}/>
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;

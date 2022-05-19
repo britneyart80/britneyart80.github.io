@@ -1,0 +1,49 @@
+.navbarContainer nav {
+  padding: 0 64px;
+  background-color: transparent;
+  box-shadow: none;
+
+  i,
+  li a,
+  .logoContainer {
+    color: black;
+  }
+
+  .logoContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  ul {
+    a {
+      position: relative;
+      display: inline;
+      padding: 4px 16px;
+
+      &:hover {
+        background-color: transparent;
+      }
+
+      &::before {
+        content: " ";
+        height: 50%;
+        width: 80%;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        background: rgba(114, 179, 116, 0.2);
+        z-index: -1;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform 0.3s ease;
+      }
+
+      &:hover::before {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+    }
+  }
+}
