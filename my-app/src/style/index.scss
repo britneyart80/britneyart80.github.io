@@ -13,35 +13,46 @@ body {
   h1 {
     font-size: 3.815rem !important;
     font-weight: 800 !important;
+    line-height: 1.2;
+
   }
   h2 {
     font-size: 3.052rem !important;
-    font-weight: 800 !important;
+    font-weight: 600 !important;
+    line-height: 1.2;
+
   }
   h3 {
     font-size: 2.441rem !important;
-    font-weight: 400 !important;
+    font-weight: 600 !important;
+    line-height: 1.2;
+
   }
   h4 {
     font-size: 1.953rem !important;
     font-weight: 400 !important;
+    line-height: 1.2;
+
 
   }
   h5 {
     font-size: 1.563rem !important;
     font-weight: 400 !important;
+    line-height: 1.2;
   }
   h6 {
     font-size: 1.25rem !important;
-    font-weight: 400 !important;
+    font-weight: 800 !important;
+    line-height: 1.2;
+
   }
   p {
     font-size: 1rem !important;
     font-weight: normal;
   }
-  p.caption {
+  p.caption, a {
     font-size: 0.8rem !important;
-    font-weight: 200;
+    font-weight: 400;
   }
 }
 
