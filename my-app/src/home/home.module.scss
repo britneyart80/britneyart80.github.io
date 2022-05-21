@@ -1,3 +1,5 @@
+@use '../style/colors.scss' as c;
+
 .container {
   width: 100%;
   padding: 0 64px;
@@ -11,7 +13,7 @@
     border-radius: 100% 0 0 0;
     bottom: 0;
     left: -5%;
-    background: rgba(114, 179, 116, 0.1);
+    background: c.$green-alpha-2;
     z-index: -1;
     transform: scaleX(1);
     transform-origin: bottom left;
@@ -45,6 +47,7 @@
         position: relative;
         display: inline;
         width: max-content;
+        color: c.$grey;
 
         &::before {
           content: " ";
@@ -54,7 +57,7 @@
           position: absolute;
           top: 70%;
           left: -5%;
-          background: rgba(114, 179, 116, 0.2);
+          background: c.$green-alpha;
           z-index: -1;
           animation: underline 0.7s normal;
           animation-iteration-count: 1;
@@ -77,6 +80,7 @@
   .caption {
     text-align: center;
     padding-bottom: 24px;
+    color: c.$grey;
   }
 }
 

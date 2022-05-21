@@ -6,6 +6,7 @@ const Nav = () => {
   return (
     <div className={styles.navbarContainer}>
       <Navbar
+      className={styles.nav}
         alignLinks="right"
         brand={
           <a className={styles.logoContainer} href="/">
@@ -26,6 +27,7 @@ const Nav = () => {
           preventScrolling: true,
         }}
       >
+        <NavItem href="/">HOME</NavItem>
         <NavItem href="about">ABOUT</NavItem>
         <NavItem href="code">CODE</NavItem>
         <NavItem href="art-and-design">ART & DESIGN</NavItem>
