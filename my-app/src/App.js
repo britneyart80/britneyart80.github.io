@@ -6,17 +6,42 @@ import Art from "./art/art";
 import Nav from "./components/nav/nav";
 import { Routes, Route } from "react-router-dom";
 import "materialize-css/dist/css/materialize.min.css";
+import { useEffect, useState } from "react";
 
 const App = () => {
+  let [posX, setPosX] = useState();
+  let [posY, setPosY] = useState();
+  let [linkHover, setLinkHover] = useState(false);
+
+  useEffect(() => {
+      document.querySelectorAll('a').forEach((el) => {
+        el.addEventListener('mouseover', () => setLinkHover(true));
+        el.addEventListener('mouseout', () => setLinkHover(false));
+      });
+      document.querySelectorAll('button').forEach((el) => {
+        el.addEventListener('mouseover', () => setLinkHover(true));
+        el.addEventListener('mouseout', () => setLinkHover(false));
+      });
+    
+    window.addEventListener("mousemove", (e) => {
+      setPosX(e.pageX - 18);
+      setPosY(e.pageY - 18);
+    });
+  }, [])
+
   return (
     <div className={styles.container}>
       <Nav></Nav>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="about" element={<About/>}/>
-        <Route path="code" element={<Code/>}/>
-        <Route path="art-and-design" element={<Art/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="code" element={<Code />} />
+        <Route path="art-and-design" element={<Art />} />
       </Routes>
+      <div className={`${styles.cursor} ${linkHover ? styles.cursorHover : ""}`} style={{
+        left: posX + "px",
+        top: posY + "px"
+      }}></div>
     </div>
   );
 };

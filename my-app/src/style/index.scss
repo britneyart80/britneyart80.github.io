@@ -1,3 +1,5 @@
+@use "./colors.scss" as c;
+
 body {
   margin: 0;
   font-family: unquote("Lato");
@@ -63,3 +65,10 @@ body, html, #root {
 code {
   font-family: unquote("Lato");
 }
+
+// cursor styles
+body {
+  cursor: none;
+}
+
+

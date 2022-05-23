@@ -4,7 +4,6 @@ import headshot from "../img/headshot.jpg";
 import email from "../img/email.svg";
 import github from "../img/github.svg";
 import linkedin from "../img/linkedin.svg";
-import imgs from "./images";
 import images from "./images";
 
 const Tile = ({ imgSrc }) => {
@@ -15,17 +14,7 @@ const Tile = ({ imgSrc }) => {
   );
 };
 
-// const getTiles = () => {
-//     const tiles = [];
-//     for (let i = 1; i < 10; i++) {
-//         tiles.push(`../img/tile-${i}`)
-//     }
-//     return tiles;
-// }
-
 const About = () => {
-  //   const tiles = getTiles();
-
   return (
     <div className={styles.container}>
       <Row className={styles.row}>

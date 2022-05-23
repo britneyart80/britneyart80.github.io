@@ -24,7 +24,7 @@
   }
 
   .headshot {
-    max-width: 600px;
+    max-width: 120%;
   }
 
   .content {
@@ -43,42 +43,42 @@
     height: 1000px;
 
     h4 {
-        position: relative;
-        display: inline;
-        width: max-content;
-        color: c.$grey;
+      position: relative;
+      display: inline;
+      width: max-content;
+      color: c.$grey;
 
-        &::before {
-          content: " ";
-          height: 50%;
-          width: 110%;
-          display: block;
-          position: absolute;
-          top: 70%;
-          left: -5%;
-          background: c.$green-alpha;
-          z-index: -1;
-          transform-origin: bottom left;
-          transition: transform 0.3s ease;
-        }
+      &::before {
+        content: " ";
+        height: 50%;
+        width: 110%;
+        display: block;
+        position: absolute;
+        top: 70%;
+        left: -5%;
+        background: c.$green-alpha;
+        z-index: -1;
+        transform-origin: bottom left;
+        transition: transform 0.3s ease;
       }
+    }
 
-      .tiles {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-          margin: 48px 0;
-          width: 100%;
+    .tiles {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 48px 0;
+      width: 100%;
+    }
+
+    .tile {
+      max-width: calc(33% - 8px);
+      max-height: 27vw;
+      margin: 16px 0;
+
+      img {
+        max-height: 100%;
       }
-
-      .tile {
-        max-width: calc(33% - 8px);
-        max-height: 27vw;
-        margin: 16px 0;
-        
-        img {
-            max-height: 100%;
-        }
     }
   }
 
@@ -98,7 +98,7 @@
       max-width: max-content;
       align-items: center;
       justify-content: center;
-      cursor: pointer;
+      cursor: none;
     }
 
     img {
