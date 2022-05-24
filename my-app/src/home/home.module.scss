@@ -15,9 +15,6 @@
     left: -5%;
     background: c.$green-alpha-2;
     z-index: -1;
-    transform: scaleX(1);
-    transform-origin: bottom left;
-    transition: transform 0.3s ease;
   }
 
   .row {
@@ -62,7 +59,7 @@
           animation: underline 0.7s normal;
           animation-iteration-count: 1;
           transform-origin: bottom left;
-          transition: transform 0.3s ease;
+          transition: transform 1s ease-in;
         }
       }
 

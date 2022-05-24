@@ -4,19 +4,28 @@ import headshot from "../img/headshot.jpg";
 import email from "../img/email.svg";
 import github from "../img/github.svg";
 import linkedin from "../img/linkedin.svg";
-import images from "./images";
+import Image from "../components/image/image";
+import { useEffect, useState } from "react";
 
-const Tile = ({ imgSrc }) => {
-  return (
-    <div className={styles.tile}>
-      <img src={imgSrc} />
-    </div>
-  );
+const generatePaths = (n) => {
+  let res = [];
+  for (let i = 1; i < n + 1; i++) {
+    res.push(`tiles/tile-${i}.JPG`);
+  }
+  return res;
 };
 
 const About = () => {
+  let [paths, setPaths] = useState();
+
+  useEffect(() => {
+    const p = generatePaths(9);
+    setPaths(p);
+  }, []);
+
   return (
     <div className={styles.container}>
+      <div className={styles.bigText}>about me</div>
       <Row className={styles.row}>
         <Col m={7} s={12}>
           <Parallax
@@ -76,9 +85,12 @@ const About = () => {
       <Row className={styles.gallery}>
         <h4> Things I love.</h4>
         <div className={styles.tiles}>
-          {images.map((src, index) => (
-            <Tile key={index} imgSrc={src} />
-          ))}
+          {paths &&
+            paths.map((p, index) => (
+              <div className={`${styles.tile} tile-${index}`} key={index}>
+                <Image path={p}></Image>
+              </div>
+            ))}
         </div>
       </Row>
     </div>

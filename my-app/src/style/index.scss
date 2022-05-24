@@ -6,7 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  h1, h2, h3, h4, h5, h6, p {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
     margin: 0;
     letter-spacing: 2%;
     line-height: auto;
@@ -16,26 +22,21 @@ body {
     font-size: 3.815rem !important;
     font-weight: 800 !important;
     line-height: 1.2;
-
   }
   h2 {
     font-size: 3.052rem !important;
     font-weight: 600 !important;
     line-height: 1.2;
-
   }
   h3 {
     font-size: 2.441rem !important;
     font-weight: 600 !important;
     line-height: 1.2;
-
   }
   h4 {
     font-size: 1.953rem !important;
     font-weight: 400 !important;
     line-height: 1.2;
-
-
   }
   h5 {
     font-size: 1.563rem !important;
@@ -46,19 +47,21 @@ body {
     font-size: 1.25rem !important;
     font-weight: 800 !important;
     line-height: 1.2;
-
   }
   p {
     font-size: 1rem !important;
     font-weight: normal;
   }
-  p.caption, a {
+  p.caption,
+  a {
     font-size: 0.8rem !important;
     font-weight: 400;
   }
 }
 
-body, html, #root {
+body,
+html,
+#root {
   height: 100%;
 }
 
@@ -66,9 +69,29 @@ code {
   font-family: unquote("Lato");
 }
 
+.tile-2 {
+  position: relative;
+
+  img {
+    position: relative;
+  }
+
+  &::before {
+    content: "";
+    background: url("../img/tangoFly.png");
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 80%;
+    display: block;
+    position: absolute;
+    top: -33.5%;
+    left: 10%;
+    background-position-x: center;
+    background-size: contain;
+  }
+}
+
 // cursor styles
 body {
   cursor: none;
 }
-
-

@@ -3,6 +3,12 @@ import { Navbar, NavItem, Icon } from "react-materialize";
 import styles from "./nav.module.scss";
 
 const Nav = () => {
+  const openMenu = () => {
+    const nav = document.getElementById("nav");
+    console.log(nav);
+    nav.style.transform = "translate(0%)";
+  }
+
   return (
     <div className={styles.navbarContainer}>
       <Navbar
@@ -14,7 +20,7 @@ const Nav = () => {
           </a>
         }
         id="nav"
-        menuIcon={<Icon>menu</Icon>}
+        menuIcon={<Icon onClick={openMenu}>menu</Icon>}
         options={{
           draggable: true,
           edge: "left",
@@ -28,9 +34,9 @@ const Nav = () => {
         }}
       >
         <NavItem href="/">HOME</NavItem>
-        <NavItem href="about">ABOUT</NavItem>
-        <NavItem href="code">CODE</NavItem>
-        <NavItem href="art-and-design">ART & DESIGN</NavItem>
+        <NavItem href="/about">ABOUT</NavItem>
+        <NavItem href="/code">CODE</NavItem>
+        <NavItem href="/art-and-design">ART & DESIGN</NavItem>
       </Navbar>
     </div>
   );

@@ -14,6 +14,15 @@
     height: 100%;
     display: flex;
     align-items: center;
+
+    h6 {
+        transition-duration: 0.5s;
+    }
+    
+    &:hover h6 {
+        transform: scale(1.04);
+        transition-duration: 0.5s;
+    }
   }
 
   ul {
@@ -39,7 +48,7 @@
         z-index: -1;
         transform: scaleX(0);
         transform-origin: bottom right;
-        transition: transform 0.3s ease;
+        transition: transform 0.3s ease-in;
       }
 
       &:hover::before {

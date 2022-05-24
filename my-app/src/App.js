@@ -3,12 +3,13 @@ import Home from "./home/home";
 import About from "./about/about";
 import Code from "./code/code";
 import Art from "./art/art";
+import PageDetail from "./details/details";
 import Nav from "./components/nav/nav";
 import { Routes, Route } from "react-router-dom";
 import "materialize-css/dist/css/materialize.min.css";
 import { useEffect, useState } from "react";
 
-const App = () => {
+const Cursor = () => {
   let [posX, setPosX] = useState();
   let [posY, setPosY] = useState();
   let [linkHover, setLinkHover] = useState(false);
@@ -30,18 +31,25 @@ const App = () => {
   }, [])
 
   return (
+    <div className={`${styles.cursor} ${linkHover ? styles.cursorHover : ""}`} style={{
+      left: posX + "px",
+      top: posY + "px"
+    }}/>
+  )
+};
+
+const App = () => {
+  return (
     <div className={styles.container}>
       <Nav></Nav>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="code" element={<Code />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/code" element={<Code />}/>
+        <Route path="/code/:id" element={<PageDetail type="code"/>}/>
         <Route path="art-and-design" element={<Art />} />
       </Routes>
-      <div className={`${styles.cursor} ${linkHover ? styles.cursorHover : ""}`} style={{
-        left: posX + "px",
-        top: posY + "px"
-      }}></div>
+      <Cursor/>
     </div>
   );
 };
