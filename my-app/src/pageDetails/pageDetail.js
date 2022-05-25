@@ -1,4 +1,4 @@
-class CodeDetail {
+class PageDetail {
     constructor(company, start, end, content) {
       this.company = company;
       this.start = start;
@@ -7,4 +7,4 @@ class CodeDetail {
     }
   }
 
-export default CodeDetail;
+export default PageDetail;

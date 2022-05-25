@@ -32,7 +32,7 @@ const Card = ({ exp, key }) => {
             }}
             waves="light"
           >
-            Learn More
+            LEARN MORE
           </Button>
         </Link>
       </Col>

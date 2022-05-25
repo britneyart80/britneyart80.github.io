@@ -26,6 +26,14 @@ const codeExperiences = [
     "/code/tetris"
   ),
   new Experience(
+    "Prepper",
+    new Date(2021, 6),
+    new Date(2021, 11),
+    "HAHHAHAHAHAHAH",
+    "experiences/prepper.gif",
+    "/code/prepper"
+  ),
+  new Experience(
     "Beyond the curve",
     new Date(2021, 6),
     new Date(2021, 11),
@@ -40,14 +48,6 @@ const codeExperiences = [
     "Game of tic tac toe hosted on heroku",
     "experiences/ttt.gif",
     "/code/tic-tac-toe"
-  ),
-  new Experience(
-    "Prepper",
-    new Date(2021, 6),
-    new Date(2021, 11),
-    "HAHHAHAHAHAHAH",
-    "experiences/prepper.gif",
-    "/code/prepper"
   ),
 ];
 

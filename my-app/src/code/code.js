@@ -1,6 +1,6 @@
 import styles from "./code.module.scss";
 import codeExperiences from "../utils/experiences/codeExperience";
-import { Icon } from "react-materialize";
+import { Icon, Button } from "react-materialize";
 import Card from "../components/card/card";
 
 const Code = () => {
@@ -14,8 +14,26 @@ const Code = () => {
         <Icon>arrow_downward</Icon>
       </div>
       {codeExperiences.map((e, i) => (
-        <Card exp={e} key={i}/>
+        <Card exp={e} key={i} />
       ))}
+      <Button
+        node="button"
+        small
+        style={{
+          backgroundColor: "transparent",
+          boxShadow: "none",
+          color: "rgba(114, 179, 116, 1)",
+          cursor: "none",
+          mixBlendMode: "difference",
+        }}
+        waves="light"
+        onClick={() => {
+            window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+        }}
+      >
+          BACK TO TOP
+          <Icon right>arrow_upward</Icon>
+      </Button>
     </div>
   );
 };

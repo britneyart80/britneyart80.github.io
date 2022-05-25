@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: unquote("Lato");
+  font-family: unquote("Lato") !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -57,6 +57,11 @@ body {
     font-size: 0.8rem !important;
     font-weight: 400;
   }
+
+  button, a {
+    cursor: none !important;
+    font-family: unquote("Lato") !important;
+  }
 }
 
 body,
@@ -65,12 +70,9 @@ html,
   height: 100%;
 }
 
-code {
-  font-family: unquote("Lato");
-}
-
-.tile-2 {
+div.tile-2 {
   position: relative;
+  overflow: visible !important;
 
   img {
     position: relative;
