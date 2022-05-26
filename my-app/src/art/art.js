@@ -1,4 +1,4 @@
-import { Col, Row } from "react-materialize";
+import { Col, Row, MediaBox } from "react-materialize";
 import styles from "./art.module.scss";
 import art from "../img/art.png";
 import { useState, useEffect } from "react";
@@ -37,7 +37,7 @@ const Art = () => {
             {paths &&
               paths.map((p, index) => (
                 <div className={styles.tile} key={index}>
-                  <Image path={p}></Image>
+                    <Image path={p} boxed></Image>
                 </div>
               ))}
           </div>
