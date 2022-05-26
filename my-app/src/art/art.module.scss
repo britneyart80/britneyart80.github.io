@@ -56,51 +56,69 @@
   }
 
   .content {
-      display: flex;
-      flex-direction: column;
-      padding: 64px;
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
 
-    .artContent {
-        height: 500px;
+    .tiles {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 48px 0;
+      width: 100%;
+    }
+
+    .tile {
+      width: calc(30vw - 16px);
+      height: calc(30vw - 16px);
+      margin: 16px 0;
+      overflow: hidden;
+      object-fit: cover;
+      object-position: center;
+
+      img {
+          width: initial;
+          height: 100%;
+      }
     }
 
     .designContent {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
 
-        .comingSoon {
-            font-size: 60px;
-            font-weight: 800;
-            color: c.$grey;
-            &:hover {
-                animation: sideToSide .3s ease infinite;
-            }
+      .comingSoon {
+        font-size: 60px;
+        font-weight: 800;
+        color: c.$grey;
+        &:hover {
+          animation: sideToSide 0.3s ease infinite;
         }
+      }
     }
 
     h4 {
-        position: relative;
-        display: inline;
-        width: max-content;
-        color: c.$grey;
-        margin-bottom: 24px;
-  
-        &::before {
-          content: " ";
-          height: 50%;
-          width: 110%;
-          display: block;
-          position: absolute;
-          top: 70%;
-          left: -5%;
-          background: c.$green-alpha;
-          z-index: -1;
-          transform-origin: bottom left;
-          transition: transform 0.3s ease;
-        }
+      position: relative;
+      display: inline;
+      width: max-content;
+      color: c.$grey;
+      margin-bottom: 24px;
+
+      &::before {
+        content: " ";
+        height: 50%;
+        width: 110%;
+        display: block;
+        position: absolute;
+        top: 70%;
+        left: -5%;
+        background: c.$green-alpha;
+        z-index: -1;
+        transform-origin: bottom left;
+        transition: transform 0.3s ease;
       }
+    }
   }
 }
 
@@ -140,13 +158,13 @@
 }
 
 @keyframes sideToSide {
-    from {
-        transform: rotate(3deg);
-    }
-    50% {
-        transform: rotate(-3deg);
-    }
-    to {
-        transform: rotate(3deg);
-    }
+  from {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  to {
+    transform: rotate(3deg);
+  }
 }

@@ -1,12 +1,13 @@
-import { Col, Row, Carousel } from "react-materialize";
+import { Col, Row } from "react-materialize";
 import styles from "./art.module.scss";
 import art from "../img/art.png";
 import { useState, useEffect } from "react";
+import Image from "../components/image/image";
 
 const generatePaths = (n) => {
   let res = [];
   for (let i = 1; i < n + 1; i++) {
-    res.push(`tiles/tile-${i}.JPG`);
+    res.push(`art/tile-${i}.jpg`);
   }
   return res;
 };
@@ -15,7 +16,7 @@ const Art = () => {
   let [paths, setPaths] = useState();
 
   useEffect(() => {
-    const p = generatePaths(9);
+    const p = generatePaths(12);
     setPaths(p);
   }, []);
 
@@ -30,32 +31,17 @@ const Art = () => {
         </Col>
       </Row>
       <div className={styles.content}>
-        <div>
+        <Row>
           <h4 className={styles.sectionHeader}> Art.</h4>
-          <div className={styles.artContent}>
-            {/* {paths && <Carousel
-              carouselId="artCarousel"
-              images={[
-                "https://picsum.photos/200/300?image=0",
-                "https://picsum.photos/200/300?image=1",
-                "https://picsum.photos/200/300?image=2",
-                "https://picsum.photos/200/300?image=3",
-                "https://picsum.photos/200/300?image=4",
-              ]}
-              options={{
-                dist: -100,
-                duration: 200,
-                fullWidth: false,
-                indicators: false,
-                noWrap: false,
-                numVisible: 5,
-                onCycleTo: null,
-                padding: 0,
-                shift: 0,
-              }}
-            />} */}
+          <div className={styles.tiles}>
+            {paths &&
+              paths.map((p, index) => (
+                <div className={styles.tile} key={index}>
+                  <Image path={p}></Image>
+                </div>
+              ))}
           </div>
-        </div>
+        </Row>
         <div>
           <h4 className={styles.sectionHeader}> Design Projects.</h4>
           <div className={styles.designContent}>
