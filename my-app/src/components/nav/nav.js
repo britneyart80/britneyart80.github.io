@@ -5,7 +5,6 @@ import styles from "./nav.module.scss";
 const Nav = () => {
   const openMenu = () => {
     const nav = document.getElementById("nav");
-    console.log(nav);
     nav.style.transform = "translate(0%)";
   }
 
@@ -37,6 +36,7 @@ const Nav = () => {
         <NavItem href="/about">ABOUT</NavItem>
         <NavItem href="/code">CODE</NavItem>
         <NavItem href="/art-and-design">ART & DESIGN</NavItem>
+        <a href="/resume">RESUME</a>
       </Navbar>
     </div>
   );

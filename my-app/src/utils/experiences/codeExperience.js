@@ -2,7 +2,7 @@ import Experience from "./experience";
 
 const codeExperiences = [
   new Experience(
-    "WHOOP Inc.",
+    "WHOOP Inc",
     new Date(2021, 6),
     new Date(2021, 11),
     "Whoop is an exciting fitness wearable startup.",
