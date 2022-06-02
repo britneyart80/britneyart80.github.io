@@ -13,8 +13,8 @@ const Home = () => {
           <div className={styles.colContent}>
             <h2>Hey! I'm Britney.</h2>
             <h5>
-              I’m a UX developer with an eye for design and a passion for
-              great user experience. Here you can learn more about me and my
+              I’m a Web / UX developer with a passion for
+              creating seamless user experiences. Here you can learn more about me and my
               selected projects.
             </h5>
             <p>Thanks for visiting! :)</p>

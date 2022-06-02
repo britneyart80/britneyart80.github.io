@@ -69,15 +69,23 @@ const About = () => {
             design. ​
           </p>
           <p>
-            I believe users should be at the forefront of interface design and
-            I'm passionate about bringing impactful web experiences to life. I
-            have industry experience in software engineering, worked on a myriad
-            of art and design projects, and I'm excited to bring my
-            interdisciplinary expertise to the table.
+            During my time at Northeastern, I've had the opportunity to do two
+            full-time Web development co-ops which gave me real-life industry
+            experience, and has exposed me to a myriad of software and design
+            technologies. I also worked on the e-board for Northeastern's Women
+            in Tech Club, hosting workshops for young engineers.
+          </p>
+          <p>
+            Ever since a small age, I have loved the visual arts and therefore I
+            am passionate about creating seamless and impactful web experiences
+            for the user. I believe users should be at the forefront of
+            interface design I'm so excited to help bridge the gap between
+            design and engineering.
           </p>
           <p>
             Here, you'll be able to learn more about my experiences in
-            engineering and design. Outside of work, you can find me travelling the world, finding good eats, and hanging out with my parrot!
+            engineering and design. Outside of work, you can find me travelling
+            the world, finding good eats, and hanging out with my parrot!
           </p>
         </Col>
       </Row>
