@@ -77,8 +77,7 @@ const About = () => {
           </p>
           <p>
             Here, you'll be able to learn more about my experiences in
-            engineering and design. Outside of work, you can find me doing this
-            this and this!
+            engineering and design. Outside of work, you can find me travelling the world, finding good eats, and hanging out with my parrot!
           </p>
         </Col>
       </Row>
