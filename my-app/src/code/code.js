@@ -1,5 +1,5 @@
 import styles from "./code.module.scss";
-import codeExperiences from "../utils/experiences/codeExperience";
+import codeExperiences from "../experiences/codeExperience";
 import { Icon, Button } from "react-materialize";
 import Card from "../components/card/card";
 import TableOfContents from "../components/tableOfContents/tableOfContents";

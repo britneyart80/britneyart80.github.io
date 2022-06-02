@@ -10,9 +10,17 @@ const codeExperiences = [
     "/code/whoop"
   ),
   new Experience(
+    "Portfolio",
+    new Date(2022, 1),
+    new Date(2020, 6),
+    "built this portfolio!",
+    "experiences/portfolio.gif",
+    "/code/portfolio"
+  ),
+  new Experience(
     "Asics Digital",
-    new Date(2021, 6),
-    new Date(2021, 11),
+    new Date(2020, 0),
+    new Date(2020, 11),
     "Asics is a fitness company and athletics store",
     "experiences/asics.gif",
     "/code/asics"

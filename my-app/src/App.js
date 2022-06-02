@@ -37,7 +37,6 @@ const Cursor = () => {
 };
 
 const App = () => {
-
   return (
     <div className={styles.container}>
       <Nav></Nav>

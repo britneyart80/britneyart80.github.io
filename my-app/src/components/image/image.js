@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { MediaBox } from "react-materialize";
+import { MediaBox, Parallax } from "react-materialize";
 
-const Image = ({ path, classes, boxed }) => {
+const Image = ({ path, boxed, parallax }) => {
   let [image, setImage] = useState();
   useEffect(() => {
     const promise = import(`../../img/${path}`);
@@ -9,25 +9,36 @@ const Image = ({ path, classes, boxed }) => {
       setImage(i.default);
     });
   }, []);
-  
+
   if (boxed) {
+    return (
+      image && (
+        <MediaBox
+          id="MediaBox_9"
+          options={{
+            inDuration: 275,
+            onCloseEnd: null,
+            onCloseStart: null,
+            onOpenEnd: null,
+            onOpenStart: null,
+            outDuration: 200,
+          }}
+        >
+          <img src={image} />
+        </MediaBox>
+      )
+    );
+  } else if (parallax) {
     return image && (
-      <MediaBox
-        id="MediaBox_9"
+      <Parallax
+        image={<img alt="" src={image}/>}
         options={{
-          inDuration: 275,
-          onCloseEnd: null,
-          onCloseStart: null,
-          onOpenEnd: null,
-          onOpenStart: null,
-          outDuration: 200,
+          responsiveThreshold: 0,
         }}
-      >
-        <img src={image} className={classes} />
-      </MediaBox>
+      />
     );
   } else {
-    return image && <img src={image} className={classes} />;
+    return image && <img src={image} />;
   }
 };
 

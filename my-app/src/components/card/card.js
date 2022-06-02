@@ -1,15 +1,9 @@
 import styles from "./card.module.scss";
 import { Row, Col, Button } from "react-materialize";
 import Image from "../image/image";
-import { Link } from "react-router-dom";
+import { formatDate } from "../../utils/utils";
 
 const Card = ({ exp, index }) => {
-  const formatDate = (start, end) => {
-    return `${start.toLocaleString("en-us", {
-      month: "long",
-      year: "numeric",
-    })} - ${end.toLocaleString("en-us", { month: "long", year: "numeric" })}`;
-  };
   return (
     <Row
       className={styles.experience}

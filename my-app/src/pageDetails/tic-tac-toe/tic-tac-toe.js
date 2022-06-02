@@ -1,10 +1,8 @@
 import PageDetail from "../pageDetail";
-import styles from "./whoop.module.scss";
 
 export default new PageDetail(
-    "WHOOP Inc",
+    "Tic Tac Toe",
     new Date(2021, 6),
     new Date(2021, 11),
-    "experiences/whoop.gif",
-    
+    "experiences/ttt.gif",
 );
