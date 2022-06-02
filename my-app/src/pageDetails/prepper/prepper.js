@@ -2,7 +2,7 @@ import PageDetail from "../pageDetail";
 
 export default new PageDetail(
     "Prepper",
-    new Date(2021, 6),
-    new Date(2021, 11),
+    new Date(2019, 7),
+    new Date(2019, 7),
     "experiences/prepper.gif",
 );

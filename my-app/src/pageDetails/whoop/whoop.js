@@ -5,6 +5,6 @@ export default new PageDetail(
     "WHOOP Inc",
     new Date(2021, 6),
     new Date(2021, 11),
-    "experiences/whoop.gif",
+    "experiences/whoop.gif"
     
 );
