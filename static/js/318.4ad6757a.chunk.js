@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[318,360],{318:function(t,e,n){n.r(e);var i=n(1360);e.default=new i.default("Beyond the curve",new Date(2020,7),new Date(2020,8),"experiences/btc.gif")},1360:function(t,e,n){n.r(e);var i=n(3144),a=n(5671),s=(0,i.Z)((function t(e,n,i,s,h,u){(0,a.Z)(this,t),this.company=e,this.start=n,this.end=i,this.image=s,this.content=h,this.github=u}));e.default=s}}]);
+//# sourceMappingURL=318.4ad6757a.chunk.js.map

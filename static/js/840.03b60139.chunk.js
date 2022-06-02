@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[840,360],{3840:function(t,e,i){i.r(e);var s=i(1360);e.default=new s.default("Asics Digital",new Date(2020,0),new Date(2020,11),"experiences/asics.gif")},1360:function(t,e,i){i.r(e);var s=i(3144),a=i(5671),n=(0,s.Z)((function t(e,i,s,n,c,h){(0,a.Z)(this,t),this.company=e,this.start=i,this.end=s,this.image=n,this.content=c,this.github=h}));e.default=n}}]);
+//# sourceMappingURL=840.03b60139.chunk.js.map

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[320],{320:function(a,p,e){a.exports=e.p+"static/media/email.04d34fa8c28714d3a1f5.svg"}}]);

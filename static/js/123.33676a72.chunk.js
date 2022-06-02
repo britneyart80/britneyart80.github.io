@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[123,360],{1360:function(t,e,i){i.r(e);var n=i(3144),s=i(5671),a=(0,n.Z)((function t(e,i,n,a,h,u){(0,s.Z)(this,t),this.company=e,this.start=i,this.end=n,this.image=a,this.content=h,this.github=u}));e.default=a},5123:function(t,e,i){i.r(e);var n=i(1360);e.default=new n.default("Tetris",new Date(2020,2),new Date(2020,4),"experiences/tetris.gif")}}]);
+//# sourceMappingURL=123.33676a72.chunk.js.map

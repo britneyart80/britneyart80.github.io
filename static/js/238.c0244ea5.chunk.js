@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[238,360],{1360:function(e,t,n){n.r(t);var i=n(3144),a=n(5671),p=(0,i.Z)((function e(t,n,i,p,s,h){(0,a.Z)(this,e),this.company=t,this.start=n,this.end=i,this.image=p,this.content=s,this.github=h}));t.default=p},6238:function(e,t,n){n.r(t);var i=n(1360);t.default=new i.default("Prepper",new Date(2019,7),new Date(2019,7),"experiences/prepper.gif")}}]);
+//# sourceMappingURL=238.c0244ea5.chunk.js.map
