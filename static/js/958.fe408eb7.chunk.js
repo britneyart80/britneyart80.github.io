@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[958],{1958:function(p,e,a){p.exports=a.p+"static/media/tangoFly.d8d875d30e5475bd2393.png"}}]);

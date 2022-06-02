@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[509],{1509:function(p,s,a){p.exports=a.p+"static/media/asics.030972f32387df714574.gif"}}]);

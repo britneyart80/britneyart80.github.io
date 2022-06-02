@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[413,360,379],{1360:function(t,e,n){n.r(e);var i=n(3144),a=n(5671),h=(0,i.Z)((function t(e,n,i,h,s,u){(0,a.Z)(this,t),this.company=e,this.start=n,this.end=i,this.image=h,this.content=s,this.github=u}));e.default=h},2413:function(t,e,n){n.r(e);var i=n(1360);n(5379);e.default=new i.default("WHOOP Inc",new Date(2021,6),new Date(2021,11),"experiences/whoop.gif")},5379:function(t,e,n){n.r(e),e.default={title:"whoop_title__hpFF2"}}}]);
-//# sourceMappingURL=413.d4362995.chunk.js.map
