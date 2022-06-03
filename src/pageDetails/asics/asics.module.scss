@@ -1,4 +1,5 @@
 @use "../../style/colors.scss" as c;
+
 .stack {
     color: c.$grey;
     padding: 48px 0;
@@ -7,6 +8,7 @@
     text-align: center;
     border-bottom: 2px c.$green solid;
     margin-bottom: 48px;
+
 }
 
 .content {
