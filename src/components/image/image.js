@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { MediaBox, Parallax } from "react-materialize";
+import styles from "./image.module.scss";
 
 const Image = ({ path, boxed, parallax }) => {
   let [image, setImage] = useState();
@@ -24,21 +25,21 @@ const Image = ({ path, boxed, parallax }) => {
             outDuration: 200,
           }}
         >
-          <img src={image} />
+          <img className={styles.image} src={image} />
         </MediaBox>
       )
     );
   } else if (parallax) {
     return image && (
       <Parallax
-        image={<img alt="" src={image}/>}
+        image={<img className={styles.image} alt="" src={image}/>}
         options={{
           responsiveThreshold: 0,
         }}
       />
     );
   } else {
-    return image && <img src={image} />;
+    return image && <img className={styles.image} src={image} />;
   }
 };
 

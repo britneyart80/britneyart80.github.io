@@ -66,21 +66,17 @@ const About = () => {
           <p>
             Thanks for stopping by! I'm Britney, a fourth year computer science
             major at Northeastern University, with a minor in interaction
-            design. ​
+            design. ​During my time at Northeastern, I've had the opportunity to
+            do two full-time Web development co-ops which gave me real-life
+            industry experience, and has exposed me to a myriad of software and
+            design technologies. I also worked on the e-board for Northeastern's
+            Women in Tech Club, hosting workshops for young engineers.
           </p>
           <p>
-            During my time at Northeastern, I've had the opportunity to do two
-            full-time Web development co-ops which gave me real-life industry
-            experience, and has exposed me to a myriad of software and design
-            technologies. I also worked on the e-board for Northeastern's Women
-            in Tech Club, hosting workshops for young engineers.
-          </p>
-          <p>
-            Ever since a small age, I have loved the visual arts and therefore I
-            am passionate about creating seamless and impactful web experiences
-            for the user. I believe users should be at the forefront of
-            interface design I'm so excited to help bridge the gap between
-            design and engineering.
+            As an art lover, I am passionate about creating seamless and
+            impactful web experiences. I believe users should be at the
+            forefront of interface design and I'm so excited to help bridge the
+            gap between design and engineering.
           </p>
           <p>
             Here, you'll be able to learn more about my experiences in
