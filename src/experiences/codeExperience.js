@@ -1,6 +1,7 @@
 import Experience from "./experience";
 
 const codeExperiences = [
+
   new Experience(
     "WHOOP Co-op",
     new Date(2021, 6),
@@ -8,6 +9,15 @@ const codeExperiences = [
     "Web/UX Development at a fast-paced fitness wearable startup. Collaborated with designers and developed an enterprise management dashboard in React.",
     "experiences/whoop.gif",
     "/code/whoop"
+  ),
+
+  new Experience(
+    "Portfolio",
+    new Date(2022, 1),
+    new Date(2022, 6),
+    "Designed and prototyped in Figma, then developed in React using Google's Materialize CSS.",
+    "experiences/portfolio.gif",
+    "/code/portfolio"
   ),
   new Experience(
     "Tetris",
@@ -18,7 +28,7 @@ const codeExperiences = [
     "/code/tetris"
   ),
   new Experience(
-    "Asics Digital Co-op",
+    "ASICS Digital Co-op",
     new Date(2020, 0),
     new Date(2020, 11),
     "Software engineering at ASICS Digital. Implemented new features for e-commerce store in a salesforce integrated codebase.",
@@ -48,14 +58,6 @@ const codeExperiences = [
     "An interactive Tic Tac Toe web application complete with single player AI and multiplayer features.",
     "experiences/ttt.gif",
     "/code/tic-tac-toe"
-  ),
-  new Experience(
-    "Portfolio",
-    new Date(2022, 1),
-    new Date(2022, 6),
-    "Designed and prototyped in Figma, then developed in React using Google's Materialize CSS.",
-    "experiences/portfolio.gif",
-    "/code/portfolio"
   ),
 ];
 

@@ -5,6 +5,7 @@
     position: relative;
     width: max-content;
     color: c.$grey;
+    margin-top: 64px;
 
     &::before {
       content: " ";
@@ -32,16 +33,32 @@
     }
   }
 
-  .concealed {
-    display: flex;
-    justify-content: center;
+  .csm, .boarding, .concealedImg {
+    margin-bottom: 48px;
+
     img {
-      max-width: 40%;
-      margin: 0 16px;
+        width: 100%;
+        max-width: 600px;
     }
   }
 
-  .highlight {
-    margin-bottom: 48px;
+  .boarding {
+      h5 {
+          margin-bottom: 48px;
+      }
+      img {
+          margin: 48px 0;
+      }
+  }
+
+  .centerFlex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+  }
+  .reverse {
+      flex-wrap: wrap-reverse;
   }
 }
