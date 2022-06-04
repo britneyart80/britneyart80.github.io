@@ -1,17 +1,10 @@
 @use "../../style/colors.scss" as c;
-.stack {
-    color: c.$grey;
-    padding: 48px 0;
-    text-transform: uppercase;
-    display: block;
-    text-align: center;
-    border-bottom: 2px c.$green solid;
-    margin-bottom: 48px;
-
-}
 
 .content {
-    h4 {
+    width: 100%;
+    padding: 48px 0;
+
+    h5 {
         position: relative;
         display: block;
         width: max-content;
@@ -32,5 +25,23 @@
 
       p {
           margin: 48px 0;
+      }
+
+      .imgContainer {
+        display: flex;
+        justify-content: center;
+          img {
+              max-width: 50%;
+          }
+      }
+
+      .triple {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 48px;
+          img {
+              object-fit: contain;
+              max-width: 30%;
+          }
       }
 }

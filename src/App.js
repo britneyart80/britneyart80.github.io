@@ -14,19 +14,26 @@ const Cursor = () => {
   let [pos, setPos] = useState({ x: document.pageX, y: document.pageY});
   let [linkHover, setLinkHover] = useState(false);
 
+  const setEventListeners = () => {
+    document.querySelectorAll('a').forEach((el) => {
+      el.addEventListener('mouseover', () => setLinkHover(true));
+      el.addEventListener('mouseout', () => setLinkHover(false));
+    });
+    document.querySelectorAll('button').forEach((el) => {
+      el.addEventListener('mouseover', () => setLinkHover(true));
+      el.addEventListener('mouseout', () => setLinkHover(false));
+    });
+  }
+
   useEffect(() => {
-      document.querySelectorAll('a').forEach((el) => {
-        el.addEventListener('mouseover', () => setLinkHover(true));
-        el.addEventListener('mouseout', () => setLinkHover(false));
-      });
-      document.querySelectorAll('button').forEach((el) => {
-        el.addEventListener('mouseover', () => setLinkHover(true));
-        el.addEventListener('mouseout', () => setLinkHover(false));
-      });
-      window.addEventListener("mousemove", (e) => {
-        setPos({ x: e.pageX - 18, y: e.pageY - 18 });
-      });
-  }, [linkHover]);
+    window.addEventListener("mousemove", (e) => {
+      setPos({ x: e.pageX - 18, y: e.pageY - 18 });
+    });
+    setEventListeners();
+    setInterval(() => {
+      setEventListeners();
+    }, 3000)  
+  }, []);
 
   return (
     <div className={`cursor ${linkHover ? styles.cursorHover : ""}`} style={{

@@ -1,17 +1,6 @@
 @use "../../style/colors.scss" as c;
-.stack {
-    color: c.$grey;
-    padding: 48px 0;
-    text-transform: uppercase;
-    display: block;
-    text-align: center;
-    border-bottom: 2px c.$green solid;
-    margin-bottom: 48px;
-
-}
-
 .content {
-    h4 {
+    h5 {
         position: relative;
         display: block;
         width: max-content;

@@ -1,35 +1,47 @@
 @use "../../style/colors.scss" as c;
-.stack {
-    color: c.$grey;
-    padding: 48px 0;
-    text-transform: uppercase;
-    display: block;
-    text-align: center;
-    border-bottom: 2px c.$green solid;
-    margin-bottom: 48px;
-}
-
 .content {
-    h4 {
-        position: relative;
-        display: block;
-        width: max-content;
-        color: c.$grey;
-  
-        &::before {
-          content: " ";
-          height: 50%;
-          width: 110%;
-          display: block;
-          position: absolute;
-          top: 70%;
-          left: -5%;
-          background: c.$green-alpha;
-          z-index: -1;
-        }
-      }
+  h5 {
+    display: block;
+    position: relative;
+    width: max-content;
+    color: c.$grey;
 
-      p {
-          margin: 48px 0;
-      }
+    &::before {
+      content: " ";
+      height: 50%;
+      width: 110%;
+      display: block;
+      position: absolute;
+      top: 70%;
+      left: -5%;
+      background: c.$green-alpha;
+      z-index: -1;
+    }
+  }
+
+  p {
+    margin: 48px 0;
+  }
+
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 60%;
+    }
+  }
+
+  .concealed {
+    display: flex;
+    justify-content: center;
+    img {
+      max-width: 40%;
+      margin: 0 16px;
+    }
+  }
+
+  .highlight {
+    margin-bottom: 48px;
+  }
 }

@@ -6,7 +6,8 @@ export default new PageDetail(
     new Date(2019, 5),
     new Date(2019, 5),
     "experiences/ttt.gif",
+    "JS, HTML/CSS, Bootstrap, UI/UX Design",
     (<div className={styles.content}>
-        <h5 className={styles.stack}> JS, HTML/CSS, Bootstrap, UI/UX Design</h5>
+        
     </div>)
 );
