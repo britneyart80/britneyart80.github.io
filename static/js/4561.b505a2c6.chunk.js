@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[4561],{4561:function(e,p,a){e.exports=a.p+"static/media/linkedin.66a631893265547ee2ad.svg"}}]);
