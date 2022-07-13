@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[3085],{3085:function(p,a,c){p.exports=c.p+"static/media/offboarding.62f5b6dc39ca29936ec5.png"}}]);

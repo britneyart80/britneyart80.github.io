@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[1927],{1927:function(t,e,n){n.r(e),e.default={content:"tetris_content__-XjUm"}}}]);
+//# sourceMappingURL=1927.85328768.chunk.js.map

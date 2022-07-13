@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[9894],{9894:function(e,p,s){e.exports=s.p+"static/media/tetris.99285d195e595025a515.gif"}}]);

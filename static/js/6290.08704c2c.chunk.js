@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[6290],{6290:function(e,n,t){t.r(n),n.default={content:"beyond-the-curve_content__WN-6A"}}}]);
+//# sourceMappingURL=6290.08704c2c.chunk.js.map

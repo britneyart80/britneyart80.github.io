@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[8856],{7424:function(p,t,a){p.exports=a.p+"static/media/ttt.647027299b051ec2aa45.gif"}}]);

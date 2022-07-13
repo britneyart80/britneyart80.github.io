@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[8387],{8387:function(p,a,e){p.exports=e.p+"static/media/about-compare.719b221398f3236c1b7d.png"}}]);
