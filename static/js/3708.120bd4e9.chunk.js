@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[3708],{3708:function(p,a,s){p.exports=s.p+"static/media/github.db4c5c3a34a706060d05.svg"}}]);
