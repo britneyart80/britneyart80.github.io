@@ -7,13 +7,13 @@ const Home = () => {
     <div className={styles.container}>
       <Row className={styles.row}>
         <Col l={5} m={6} s={12} className={styles.col1}>
-          <img src={me} />
+          <img src={me} alt="me"/>
         </Col>
         <Col l={7} m={6} s={12} className={styles.col2}>
           <div className={styles.colContent}>
             <h2>Hey! I'm Britney.</h2>
             <h5>
-              I’m a Web / UX developer with a passion for
+              I’m a front end developer and artist with a passion for
               creating seamless user experiences. Here you can learn more about me and my
               selected projects.
             </h5>

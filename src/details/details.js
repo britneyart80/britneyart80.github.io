@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import styles from "./details.module.scss";
 import { formatDate } from "../utils/utils";
 import Image from "../components/image/image";
@@ -20,6 +20,12 @@ const CodeDetails = ({ type }) => {
   return (
     detail && (
       <div className={styles.container}>
+          <Link to={"/code"}>
+            <Icon small style={{
+              color: "black",
+              marginBottom: "24px"
+            }}>arrow_back</Icon>
+          </Link>
         <div className={styles.headerContainer}>
           <div className={styles.heading}>
             <h1>{detail.company}</h1>

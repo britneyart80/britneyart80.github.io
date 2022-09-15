@@ -1,12 +1,20 @@
 import Experience from "./experience";
 
 const codeExperiences = [
+  new Experience(
+    "SIMON Markets Internship",
+    new Date(2022, 6),
+    new Date(2022, 8),
+    "UI Engineering internship collaborating with design/backend interns to build a platform that allows investors to crowdsource millions for alternative investments.",
+    "experiences/simon.png",
+    "/code/simon"
+  ),
 
   new Experience(
     "WHOOP Co-op",
     new Date(2021, 6),
     new Date(2021, 11),
-    "Web/UX Development at a fast-paced fitness wearable startup. Collaborated with designers and developed an enterprise management dashboard in React.",
+    "Web/UX Development at a fast-paced fitness wearable startup. Collaborated with designers and engineers to develop an enterprise solution for the consumer-based WHOOP strap.",
     "experiences/whoop.gif",
     "/code/whoop"
   ),

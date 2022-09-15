@@ -32,14 +32,14 @@ const Image = ({ path, boxed, parallax }) => {
   } else if (parallax) {
     return image && (
       <Parallax
-        image={<img className={styles.image} alt="" src={image}/>}
+        image={<img className={styles.image} alt={path} src={image}/>}
         options={{
           responsiveThreshold: 0,
         }}
       />
     );
   } else {
-    return image && <img className={styles.image} src={image} />;
+    return image && <img className={styles.image} src={image} alt={path}/>;
   }
 };
 

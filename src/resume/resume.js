@@ -23,7 +23,7 @@ const Resume = () => {
           <Icon right>download</Icon>
         </a>
       </Button>
-      <img src={res} />
+      <img src={res} alt="resume"/>
     </div>
   );
 };

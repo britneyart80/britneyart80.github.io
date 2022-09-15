@@ -1,4 +1,4 @@
-import { Col, Row, MediaBox } from "react-materialize";
+import { Col, Row } from "react-materialize";
 import styles from "./art.module.scss";
 import art from "../img/art.png";
 import { useState, useEffect } from "react";
@@ -27,7 +27,7 @@ const Art = () => {
           <div className={styles.bigText}>ART & DESIGN</div>
         </Col>
         <Col className={styles.imgCol} m={6} s={12}>
-          <img src={art} />
+          <img src={art} alt="lifestyle image"/>
         </Col>
       </Row>
       <div className={styles.content}>
