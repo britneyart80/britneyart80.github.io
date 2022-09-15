@@ -5,6 +5,7 @@
         display: block;
         width: max-content;
         color: c.$grey;
+        margin: 64px;
   
         &::before {
           content: " ";
@@ -20,6 +21,6 @@
       }
 
       p {
-          margin: 48px 0;
+          margin: 48px 64px;
       }
 }

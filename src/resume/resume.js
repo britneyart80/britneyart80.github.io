@@ -1,5 +1,5 @@
 import styles from "./resume.module.scss";
-import res from "../img/resume.jpg";
+import res from "../img/resume.png";
 import { Button, Icon } from "react-materialize";
 import file from "./resume.pdf";
 const Resume = () => {
