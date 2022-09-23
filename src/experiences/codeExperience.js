@@ -3,8 +3,8 @@ import Experience from "./experience";
 const codeExperiences = [
   new Experience(
     "SIMON Markets Internship",
-    new Date(2022, 6),
-    new Date(2022, 8),
+    new Date(2022, 5),
+    new Date(2022, 7),
     "UI Engineering internship collaborating with design/backend interns to build a platform that allows investors to crowdsource millions for alternative investments.",
     "experiences/simon.png",
     "/code/simon"

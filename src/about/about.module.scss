@@ -66,7 +66,7 @@
     .tiles {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: space-around;
       margin: 48px 0;
       width: 100%;
 
@@ -76,6 +76,7 @@
       width: calc(30vw - 16px);
       height: calc(30vw - 16px);
       margin: 16px 0;
+      margin-top: 0;
       overflow: hidden;
       object-fit: cover;
 
@@ -174,10 +175,27 @@
   .container {
     .bigText {
       font-size: 60px;
+      left: 16px;
     }
 
     .row {
       margin-top: 148px;
+    }
+
+    .socials {
+      p {
+        margin-top: 16px;
+        margin-bottom: 8px;
+      }
+      flex-direction: column;
+    }
+
+    .gallery .tiles {
+      justify-content: center;
+      .tile {
+        width: 90%;
+        height: 90%;
+      }
     }
   }
 }
