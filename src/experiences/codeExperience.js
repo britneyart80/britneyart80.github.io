@@ -58,6 +58,14 @@ const codeExperiences = [
     "experiences/prepper.gif",
     "/code/prepper"
   ),
+  // new Experience(
+  //   "Tic Tac Toe",
+  //   new Date(2019, 5),
+  //   new Date(2019, 5),
+  //   "An interactive Tic Tac Toe web application complete with single player AI and multiplayer features.",
+  //   "experiences/ttt.gif",
+  //   "/code/tic-tac-toe"
+  // ),
 ];
 
 export default codeExperiences;

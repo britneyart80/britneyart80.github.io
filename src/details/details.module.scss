@@ -16,13 +16,20 @@
     color: white;
   }
 
-  .stack {
-    color: c.$grey;
-    padding: 48px 0;
-    text-transform: uppercase;
-    display: block;
-    text-align: center;
-    border-bottom: 2px c.$green solid;
+  .stack,
+  .buttonLinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .stackItems {
+      color: c.$grey;
+      padding: 48px 0;
+      text-transform: uppercase;
+      display: block;
+      text-align: center;
+      border-bottom: 2px c.$green solid;
+      max-width: 600px;
+    }
   }
 
   .comingSoon {
@@ -40,15 +47,15 @@
     height: 500px;
 
     .heading {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 60%;
-        transform: translateY(-30%);
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 1;
-      }
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 60%;
+      transform: translateY(-30%);
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 1;
+    }
 
     &::after {
       width: 100%;
@@ -71,4 +78,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 120px;
 }

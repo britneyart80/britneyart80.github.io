@@ -26,6 +26,9 @@ export default new PageDetail(
       </div>
       <Row className={styles.typography}>
         <Col s={12} l={6}>
+          <Image path="portfolio/type.png" />
+        </Col>
+        <Col s={12} l={6}>
           <p>
             Part of my prototyping and planning process was deciding on a type
             scale early on and defining those as Figma text components so that
@@ -36,15 +39,16 @@ export default new PageDetail(
             also based off of the 4/8px grid model.
           </p>
         </Col>
-        <Col s={12} l={6}>
-            <Image path="portfolio/type.png" />
-        </Col>
       </Row>
 
       <h5>Development</h5>
-      <p>This portfolio was built using React and Google's Materialize CSS for the grid system and to build off of components. All styling, except global styles, for each file use sass modules so that style attributes are always targeted and apply where expected.</p>
-
+      <p>
+        This portfolio was built using React and Google's Materialize CSS for
+        the grid system and to build off of components. All styling, except
+        global styles, for each file use sass modules so that style attributes
+        are always targeted and apply where expected.
+      </p>
     </div>
   ),
-  "https://example.com"
+  "https://github.com/britneyart80/britneyart80.github.io"
 );

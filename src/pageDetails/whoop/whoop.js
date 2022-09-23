@@ -62,6 +62,9 @@ export default new PageDetail(
       <div className={styles.boarding}>
         <h5>Highlight #2: Offboarding / Onboarding</h5>
         <Row className={styles.centerFlex}>
+          <Col s={12} l={7} className={styles.centerFlex}>
+            <Image path={"whoop/offboarding.png"} />
+          </Col>
           <Col s={12} l={5}>
             <p>
               I was in charge of the implementation for the front-end for our
@@ -70,9 +73,6 @@ export default new PageDetail(
               to discuss UI/UX implications and error states before and during
               development of this feature.
             </p>
-          </Col>
-          <Col s={12} l={7} className={styles.centerFlex}>
-            <Image path={"whoop/offboarding.png"} />
           </Col>
         </Row>
         <Row className={`${styles.centerFlex} ${styles.reverse}`}>
@@ -103,12 +103,12 @@ export default new PageDetail(
           of the page.
         </p>
         <Row className={styles.concealedImg}>
-            <Col m={12} l={6}>
-          <Image path={"whoop/concealed1.png"} />
-            </Col>
-            <Col m={12} l={6}>
-          <Image path={"whoop/concealed2.png"} />
-            </Col>
+          <Col m={12} l={6}>
+            <Image path={"whoop/concealed1.png"} />
+          </Col>
+          <Col m={12} l={6}>
+            <Image path={"whoop/concealed2.png"} />
+          </Col>
         </Row>
       </div>
       <div className={styles.highlight}>

@@ -20,12 +20,17 @@ const CodeDetails = ({ type }) => {
   return (
     detail && (
       <div className={styles.container}>
-          <Link to={"/code"}>
-            <Icon small style={{
+        <Link to={"/code"}>
+          <Icon
+            small
+            style={{
               color: "black",
-              marginBottom: "24px"
-            }}>arrow_back</Icon>
-          </Link>
+              marginBottom: "24px",
+            }}
+          >
+            arrow_back
+          </Icon>
+        </Link>
         <div className={styles.headerContainer}>
           <div className={styles.heading}>
             <h1>{detail.company}</h1>
@@ -33,49 +38,56 @@ const CodeDetails = ({ type }) => {
           </div>
           <Image path={detail.image} parallax />
         </div>
+        <div className={styles.stack}>
+          <div className={styles.stackItems}>{detail.stack}</div>
+        </div>
+        <div className={styles.buttonLinks}>
+          {detail.github ? (
+            <Button
+              href={detail.github}
+              target="_blank"
+              node="a"
+              small
+              className={styles.link}
+              style={{
+                marginTop: "40px",
+                backgroundColor: "rgba(114, 179, 116, 1)",
+                cursor: "none",
+                mixBlendMode: "difference",
+              }}
+              waves="light"
+            >
+              GITHUB REPO
+            </Button>
+          ) : (
+            ""
+          )}
+        </div>
         <div className={styles.content}>
-          <div className={styles.stack}>
-            {detail.stack}
-          </div>
-          {detail.github ? <Button
-          href={detail.github}
-          node="a"
-          small
-          className={styles.link}
-          style={{
-            marginTop: "40px",
-            backgroundColor: "rgba(114, 179, 116, 1)",
-            cursor: "none",
-            mixBlendMode: "difference",
-          }}
-          waves="light"
-        >
-          GITHUB REPO
-        </Button> : ""}
           {detail.content ? (
             detail.content
           ) : (
             <div className={styles.comingSoon}> COMING SOON</div>
           )}
           <Button
-          node="button"
-          small
-          style={{
-            backgroundColor: "transparent",
-            boxShadow: "none",
-            color: "rgba(114, 179, 116, 1)",
-            cursor: "none",
-            mixBlendMode: "difference",
-            marginTop: "48px"
-          }}
-          waves="light"
-          onClick={() => {
-            window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-          }}
-        >
-          BACK TO TOP
-          <Icon right>arrow_upward</Icon>
-        </Button>
+            node="button"
+            small
+            style={{
+              backgroundColor: "transparent",
+              boxShadow: "none",
+              color: "rgba(114, 179, 116, 1)",
+              cursor: "none",
+              mixBlendMode: "difference",
+              marginTop: "48px",
+            }}
+            waves="light"
+            onClick={() => {
+              window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+            }}
+          >
+            BACK TO TOP
+            <Icon right>arrow_upward</Icon>
+          </Button>
         </div>
       </div>
     )
