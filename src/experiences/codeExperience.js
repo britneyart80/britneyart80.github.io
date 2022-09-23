@@ -2,15 +2,6 @@ import Experience from "./experience";
 
 const codeExperiences = [
   new Experience(
-    "SIMON Markets Internship",
-    new Date(2022, 5),
-    new Date(2022, 7),
-    "UI Engineering internship collaborating with design/backend interns to build a platform that allows investors to crowdsource millions for alternative investments.",
-    "experiences/simon.png",
-    "/code/simon"
-  ),
-
-  new Experience(
     "WHOOP Co-op",
     new Date(2021, 6),
     new Date(2021, 11),
@@ -18,7 +9,6 @@ const codeExperiences = [
     "experiences/whoop.gif",
     "/code/whoop"
   ),
-
   new Experience(
     "Portfolio",
     new Date(2022, 1),
@@ -28,20 +18,29 @@ const codeExperiences = [
     "/code/portfolio"
   ),
   new Experience(
-    "Tetris",
-    new Date(2020, 2),
-    new Date(2020, 4),
-    "A fully featured game of tetris using python and the pygame library.",
-    "experiences/tetris.gif",
-    "/code/tetris"
-  ),
-  new Experience(
     "ASICS Digital Co-op",
     new Date(2020, 0),
     new Date(2020, 11),
     "Software engineering at ASICS Digital. Implemented new features for e-commerce store in a salesforce integrated codebase.",
     "experiences/asics.gif",
     "/code/asics"
+  ),
+  new Experience(
+    "SIMON Markets Internship",
+    new Date(2022, 5),
+    new Date(2022, 7),
+    "UI Engineering internship collaborating with design/backend interns to build a platform that allows investors to crowdsource millions for alternative investments.",
+    "experiences/simon.png",
+    "/code/simon"
+  ),
+
+  new Experience(
+    "Tetris",
+    new Date(2020, 2),
+    new Date(2020, 4),
+    "A fully featured game of tetris using python and the pygame library.",
+    "experiences/tetris.gif",
+    "/code/tetris"
   ),
   new Experience(
     "Beyond the curve",
@@ -58,14 +57,6 @@ const codeExperiences = [
     "Designed and developed full-stack SPA for meal prepping. Implemented using React, Bootstrap, and an Express/MongoDB API hosted on heroku.",
     "experiences/prepper.gif",
     "/code/prepper"
-  ),
-  new Experience(
-    "Tic Tac Toe",
-    new Date(2019, 5),
-    new Date(2019, 5),
-    "An interactive Tic Tac Toe web application complete with single player AI and multiplayer features.",
-    "experiences/ttt.gif",
-    "/code/tic-tac-toe"
   ),
 ];
 
