@@ -1,8 +1,11 @@
 import styles from "./tableOfContents.module.scss";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
+import { useHeadsObserver } from "../../hooks";
 
 const TableOfContents = () => {
   const [headings, setHeadings] = useState([]);
+  const { activeId } = useHeadsObserver();
+  console.log(activeId);
 
   useEffect(() => {
     const elements = Array.from(document.querySelectorAll("h5"));
@@ -27,6 +30,10 @@ const TableOfContents = () => {
                 document.querySelector(`#${heading.dataId}`).scrollIntoView({
                   behavior: "smooth",
                 });
+              }}
+              style={{
+                fontWeight: activeId === heading.dataId ? "bold" : "normal",
+                transform: activeId === heading.dataId ? "scale(1.2)" : "none",
               }}
             >
               {heading.title}
