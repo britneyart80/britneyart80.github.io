@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[4675],{4675:function(p,e,a){p.exports=a.p+"static/media/tile-7.d82f309b8d31b2095af1.JPG"}}]);
