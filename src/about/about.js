@@ -66,9 +66,12 @@ const About = () => {
           <p>
             Thanks for stopping by! I'm Britney, a fourth year computer science
             major at Northeastern University, with a minor in interaction
-            design. ​During my time at Northeastern, I've completed two fulltime co-ops and one internship which gave me real-life industry experience working and collaborating in agile teams, and has exposed me to a myriad of software and
-            design technologies. I also worked on the e-board for Northeastern's
-            Women in Tech Club, hosting workshops for young engineers.
+            design. ​During my time at Northeastern, I've completed two fulltime
+            co-ops and one internship which gave me real-life industry
+            experience working and collaborating in agile teams, and has exposed
+            me to a myriad of software and design technologies. I also worked on
+            the e-board for Northeastern's Women in Tech Club, hosting workshops
+            for young engineers.
           </p>
           <p>
             As an art lover, I am passionate about creating seamless and
@@ -86,12 +89,43 @@ const About = () => {
       <Row className={styles.gallery}>
         <h4> Things I love.</h4>
         <div className={styles.tiles}>
-          {paths &&
-            paths.map((p, index) => (
-              <div className={`${styles.tile} tile-${index}`} key={index}>
-                <Image path={p}></Image>
-              </div>
-            ))}
+          {paths && (
+            <>
+              <Col l={4}>
+                <Row>
+                  <Image path={paths[0]}></Image>
+                </Row>
+                <Row>
+                  <Image path={paths[1]}></Image>
+                </Row>
+                <Row>
+                  <Image path={paths[2]}></Image>
+                </Row>
+              </Col>
+              <Col l={4}>
+                <Row>
+                  <Image path={paths[3]}></Image>
+                </Row>
+                <Row>
+                  <Image path={paths[4]}></Image>
+                </Row>
+                <Row>
+                  <Image path={paths[5]}></Image>
+                </Row>
+              </Col>
+              <Col l={4}>
+                <Row>
+                  <Image path={paths[6]}></Image>
+                </Row>
+                <Row>
+                  <Image path={paths[7]}></Image>
+                </Row>
+                <Row>
+                  <Image path={paths[8]}></Image>
+                </Row>
+              </Col>
+            </>
+          )}
         </div>
       </Row>
     </div>
