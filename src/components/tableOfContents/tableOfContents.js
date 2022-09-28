@@ -34,6 +34,7 @@ const TableOfContents = () => {
               style={{
                 fontWeight: activeId === heading.dataId ? "bold" : "normal",
                 transform: activeId === heading.dataId ? "scale(1.2)" : "none",
+                color: activeId === heading.dataId ? "#60A961" : "",
               }}
             >
               {heading.title}

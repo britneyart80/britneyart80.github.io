@@ -6,21 +6,17 @@ import github from "../img/github.svg";
 import linkedin from "../img/linkedin.svg";
 import Image from "../components/image/image";
 import { useEffect, useState } from "react";
-
-const generatePaths = (n) => {
-  let res = [];
-  for (let i = 1; i < n + 1; i++) {
-    res.push(`tiles/tile-${i}.JPG`);
-  }
-  return res;
-};
+import Grid from "../components/grid/grid";
 
 const About = () => {
   let [paths, setPaths] = useState();
 
   useEffect(() => {
-    const p = generatePaths(9);
-    setPaths(p);
+    let res = [];
+    for (let i = 1; i < 10; i++) {
+      res.push(`tiles/tile-${i}.JPG`);
+    }
+    setPaths(res);
   }, []);
 
   return (
@@ -88,45 +84,7 @@ const About = () => {
       </Row>
       <Row className={styles.gallery}>
         <h4> Things I love.</h4>
-        <div className={styles.tiles}>
-          {paths && (
-            <>
-              <Col l={4}>
-                <Row>
-                  <Image path={paths[0]}></Image>
-                </Row>
-                <Row>
-                  <Image path={paths[1]}></Image>
-                </Row>
-                <Row>
-                  <Image path={paths[2]}></Image>
-                </Row>
-              </Col>
-              <Col l={4}>
-                <Row>
-                  <Image path={paths[3]}></Image>
-                </Row>
-                <Row>
-                  <Image path={paths[4]}></Image>
-                </Row>
-                <Row>
-                  <Image path={paths[5]}></Image>
-                </Row>
-              </Col>
-              <Col l={4}>
-                <Row>
-                  <Image path={paths[6]}></Image>
-                </Row>
-                <Row>
-                  <Image path={paths[7]}></Image>
-                </Row>
-                <Row>
-                  <Image path={paths[8]}></Image>
-                </Row>
-              </Col>
-            </>
-          )}
-        </div>
+        <div className={styles.tiles}>{paths && <Grid paths={paths} />}</div>
       </Row>
     </div>
   );

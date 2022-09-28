@@ -25,7 +25,7 @@ const Card = ({ exp, index }) => {
           className={styles.link}
           style={{
             marginTop: "40px",
-            backgroundColor: "rgba(114, 179, 116, 1)",
+            backgroundColor: "#60A961",
             cursor: "none",
             mixBlendMode: "difference",
           }}
