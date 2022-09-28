@@ -81,3 +81,9 @@ div.experience {
     }
   }
 }
+
+@media (max-width: 498px) {
+  div.experience:hover img {
+    transform: none;
+  }
+}
