@@ -126,9 +126,14 @@
 }
 
 @media (max-width: 768px) {
-  .container .bigText {
-    text-align: center;
-    font-size: 80px;
+  .container {
+    .content {
+      padding: 0 8px;
+    }
+    .bigText {
+      text-align: center;
+      font-size: 80px;
+    }
   }
 }
 

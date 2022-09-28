@@ -109,3 +109,25 @@
     margin: 48px 64px;
   }
 }
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 16px;
+
+    .headerContainer {
+      .heading {
+        top: 60%;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0;
+
+    .content {
+      padding: 0 16px;
+    }
+  }
+}
