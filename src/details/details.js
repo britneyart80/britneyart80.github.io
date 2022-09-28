@@ -41,8 +41,8 @@ const CodeDetails = ({ type }) => {
         <div className={styles.stack}>
           <div className={styles.stackItems}>{detail.stack}</div>
         </div>
-        <div className={styles.buttonLinks}>
-          {detail.github ? (
+        {detail.github ? (
+          <div className={styles.buttonLinks}>
             <Button
               href={detail.github}
               target="_blank"
@@ -50,7 +50,7 @@ const CodeDetails = ({ type }) => {
               small
               className={styles.link}
               style={{
-                marginTop: "40px",
+                marginTop: "48px",
                 backgroundColor: "rgba(114, 179, 116, 1)",
                 cursor: "none",
                 mixBlendMode: "difference",
@@ -59,10 +59,10 @@ const CodeDetails = ({ type }) => {
             >
               GITHUB REPO
             </Button>
-          ) : (
-            ""
-          )}
-        </div>
+          </div>
+        ) : (
+          ""
+        )}
         <div className={styles.content}>
           {detail.content ? (
             detail.content
@@ -78,7 +78,6 @@ const CodeDetails = ({ type }) => {
               color: "rgba(114, 179, 116, 1)",
               cursor: "none",
               mixBlendMode: "difference",
-              marginTop: "48px",
             }}
             waves="light"
             onClick={() => {

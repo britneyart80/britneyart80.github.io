@@ -1,61 +1,41 @@
 @use "../../style/colors.scss" as c;
+@use "../../style/index.scss" as index;
 
 .content {
-    width: 100%;
+  width: 100%;
 
-    h5 {
-        position: relative;
-        display: block;
-        width: max-content;
-        color: c.$grey;
-        margin: 64px;
-  
-        &::before {
-          content: " ";
-          height: 50%;
-          width: 110%;
-          display: block;
-          position: absolute;
-          top: 70%;
-          left: -5%;
-          background: c.$green-alpha;
-          z-index: -1;
-        }
-      }
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+    img {
+      max-width: 50%;
+    }
+  }
 
-      p {
-          margin: 48px 64px;
-      }
+  .triple {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    img {
+      object-fit: contain;
+      max-width: 30%;
+    }
+  }
 
-      .imgContainer {
-        display: flex;
-        justify-content: center;
-          img {
-              max-width: 50%;
-          }
-      }
+  .typography {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 
-      .triple {
-          display: flex;
-          justify-content: space-between;
-          margin-bottom: 48px;
-          img {
-              object-fit: contain;
-              max-width: 30%;
-          }
-      }
-
-      .typography {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-          align-items: center;
-
-          img {
-              object-fit: contain;
-              width: 100%;
-              max-height: 500px;
-          }
-
-      }
+    img {
+      object-fit: contain;
+      width: 100%;
+      max-height: 500px;
+    }
+  }
+  .link {
+    font-size: index.$p-size;
+    color: c.$green-solid;
+  }
 }

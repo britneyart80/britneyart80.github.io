@@ -15,6 +15,7 @@
     text-transform: uppercase;
     color: c.$grey;
     margin-bottom: 64px;
+    text-align: center;
 
     i {
       color: c.$green;
@@ -39,7 +40,7 @@
 
 @media (max-width: 992px) {
   .container {
-    padding: 0 8px;
+    padding: 48px 16px;
 
     .bigText {
       top: calc(100% - 150px);
@@ -55,8 +56,8 @@
 @media (max-width: 768px) {
   .container {
     .bigText {
-      top: calc(100% - 110px);
-      font-size: 90px;
+      top: calc(100% - 120px);
+      font-size: 100px;
     }
 
     .row {
@@ -67,10 +68,10 @@
 
 @media (max-width: 480px) {
   .container {
-    .bigText {
-      top: calc(100% - 80px);
-      font-size: 60px;
-    }
+    // .bigText {
+    //   top: calc(100% - 90px);
+    //   font-size: 80px;
+    // }
 
     .row {
       margin-top: 148px;
@@ -105,10 +106,10 @@
   }
 }
 @keyframes slideOut {
-    from {
-      transform: scaleY(1);
-    }
-    to {
-      transform: scaleY(0);
-    }
+  from {
+    transform: scaleY(1);
   }
+  to {
+    transform: scaleY(0);
+  }
+}

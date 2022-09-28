@@ -5,7 +5,6 @@ import { useHeadsObserver } from "../../hooks";
 const TableOfContents = () => {
   const [headings, setHeadings] = useState([]);
   const { activeId } = useHeadsObserver();
-  console.log(activeId);
 
   useEffect(() => {
     const elements = Array.from(document.querySelectorAll("h5"));

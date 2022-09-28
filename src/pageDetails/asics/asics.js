@@ -9,7 +9,6 @@ export default new PageDetail(
   "JS, HTML/CSS, Salesforce",
   (
     <div className={styles.content}>
-      <h5>Overview</h5>
       <p>
         ASICS Digital are the digital innovators of the leading athletics brand,
         ASICS. As a Software Engineering Co-op on the Trust pod, I was in charge

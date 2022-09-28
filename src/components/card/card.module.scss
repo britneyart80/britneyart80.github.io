@@ -53,11 +53,31 @@ div.experience {
   }
 
   .contentText {
-      width: 100%;
+    width: 100%;
   }
 
   .link {
     color: white;
     cursor: none;
+  }
+}
+
+@media (max-width: 992px) {
+  div.experience {
+    .content {
+      padding: 48px 24px;
+      padding-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  div.experience {
+    width: 100%;
+
+    .content {
+      padding: 48px 24px;
+      padding-bottom: 0;
+    }
   }
 }

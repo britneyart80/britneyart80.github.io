@@ -17,7 +17,16 @@ export default new PageDetail(
         design tool Figma before I started implementation. This included testing
         multiple versions and mocking all interactions. Below are some
         screenshots of my prototypes, including some experimental iterations.
-        All illustrations within the prototype are also done by me.
+        All illustrations within the prototype are also done by me. Click{" "}
+        <a
+          href="https://www.figma.com/file/o8nwczowIyRyIrYQIDXKjh/Portfolio?node-id=0%3A1"
+          rel="noreferrer"
+          target="_blank"
+          className={styles.link}
+        >
+          here
+        </a>{" "}
+        to view the Figma board!
       </p>
       <div className={styles.triple}>
         <Image path="portfolio/art.png" />

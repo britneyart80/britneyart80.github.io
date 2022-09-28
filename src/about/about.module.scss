@@ -145,7 +145,7 @@
     }
 
     .row {
-      margin-top: 140px;
+      margin-top: 170px;
     }
   }
 }
@@ -157,20 +157,16 @@
     }
 
     .row {
-      margin-top: 148px;
+      margin-top: 130px;
     }
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   .container {
     .bigText {
       font-size: 60px;
       left: 16px;
-    }
-
-    .row {
-      margin-top: 148px;
     }
 
     .socials {

@@ -1,4 +1,4 @@
-@use '../style/colors.scss' as c;
+@use "../style/colors.scss" as c;
 
 .container {
   width: 100%;
@@ -63,7 +63,8 @@
         }
       }
 
-      h5 {
+      h6 {
+        font-weight: normal;
         margin-top: 64px;
         max-width: 550px;
       }

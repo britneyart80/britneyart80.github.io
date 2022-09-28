@@ -11,19 +11,15 @@ import { useEffect, useState } from "react";
 import Resume from "./resume/resume";
 
 const Cursor = () => {
-  let [pos, setPos] = useState({ x: document.pageX, y: document.pageY});
+  let [pos, setPos] = useState({ x: document.pageX, y: document.pageY });
   let [linkHover, setLinkHover] = useState(false);
 
   const setEventListeners = () => {
-    document.querySelectorAll('a').forEach((el) => {
-      el.addEventListener('mouseover', () => setLinkHover(true));
-      el.addEventListener('mouseout', () => setLinkHover(false));
+    document.querySelectorAll("a, button, .materialboxed").forEach((el) => {
+      el.addEventListener("mouseover", () => setLinkHover(true));
+      el.addEventListener("mouseout", () => setLinkHover(false));
     });
-    document.querySelectorAll('button').forEach((el) => {
-      el.addEventListener('mouseover', () => setLinkHover(true));
-      el.addEventListener('mouseout', () => setLinkHover(false));
-    });
-  }
+  };
 
   useEffect(() => {
     window.addEventListener("mousemove", (e) => {
@@ -32,15 +28,18 @@ const Cursor = () => {
     setEventListeners();
     setInterval(() => {
       setEventListeners();
-    }, 3000)  
+    }, 1000);
   }, []);
 
   return (
-    <div className={`cursor ${linkHover ? styles.cursorHover : ""}`} style={{
-      left: pos.x + "px",
-      top: pos.y + "px"
-    }}/>
-  )
+    <div
+      className={`cursor ${linkHover ? styles.cursorHover : ""}`}
+      style={{
+        left: pos.x + "px",
+        top: pos.y + "px",
+      }}
+    />
+  );
 };
 
 const App = () => {
@@ -50,12 +49,12 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/code" element={<Code/>}/>
-        <Route path="/code/:id" element={<PageDetail type="code"/>}/>
+        <Route path="/code" element={<Code />} />
+        <Route path="/code/:id" element={<PageDetail type="code" />} />
         <Route path="/art-and-design" element={<Art />} />
-        <Route path="/resume" element={<Resume/>}/>
+        <Route path="/resume" element={<Resume />} />
       </Routes>
-      <Cursor/>
+      <Cursor />
     </div>
   );
 };
