@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[4467],{4467:function(e,n,t){t.r(n),n.default={content:"asics_content__iumDS"}}}]);
-//# sourceMappingURL=4467.65d26319.chunk.js.map
