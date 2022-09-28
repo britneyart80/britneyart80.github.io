@@ -4,7 +4,6 @@ import headshot from "../img/headshot.jpg";
 import email from "../img/email.svg";
 import github from "../img/github.svg";
 import linkedin from "../img/linkedin.svg";
-import Image from "../components/image/image";
 import { useEffect, useState } from "react";
 import Grid from "../components/grid/grid";
 

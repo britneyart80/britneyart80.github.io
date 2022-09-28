@@ -4,6 +4,7 @@ import art from "../img/art.png";
 import { useState, useEffect } from "react";
 import Image from "../components/image/image";
 import Grid from "../components/grid/grid";
+
 const Art = () => {
   let [paths, setPaths] = useState();
 
@@ -28,7 +29,9 @@ const Art = () => {
       <div className={styles.content}>
         <Row>
           <h4 className={styles.sectionHeader}> Art.</h4>
-          <div className={styles.tiles}>{paths && <Grid paths={paths} />}</div>
+          <div className={styles.tiles}>
+            {paths && <Grid paths={paths} boxed />}
+          </div>
         </Row>
         <div>
           <h4 className={styles.sectionHeader}> Design Projects.</h4>

@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Image from "../image/image";
 
 const Grid = (props) => {
-  const { paths } = props;
+  const { paths, boxed } = props;
   const [grid, setGrid] = useState();
 
   useEffect(() => {
@@ -19,7 +19,7 @@ const Grid = (props) => {
     return grid.map((col, cInd) => (
       <Col l={4} key={cInd}>
         {col.map((p, pInd) => (
-          <Image path={p} key={pInd} boxed></Image>
+          <Image path={p} key={pInd} boxed={boxed}></Image>
         ))}
       </Col>
     ));
