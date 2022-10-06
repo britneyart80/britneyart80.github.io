@@ -104,13 +104,71 @@ export default new PageDetail(
         <h5>Highlight #4: Typography Design System</h5>
         <p>
           I took on a side project in an effort to standardize how the web teams
-          were styling applications. Throughout this project, I collabored with
-          designers to come up and implement a typography design system which
-          impacted all 3 web teams across the software department at Whoop. Read
-          more about it here-
+          were styling applications. Throughout this project, I collaborated
+          with designers to come up with and delivered a new design system along
+          with a storybook library, which impacted all 3 web teams across the
+          software department at Whoop.
         </p>
+        <Row className={styles.centerFlex}>
+          <Col className={styles.centerFlex} s={12} l={7}>
+            <Image path={"whoop/typography.png"} />
+          </Col>
+          <Col className={styles.centerFlex} s={12} l={5}>
+            <p>
+              The first step in creating the design system was auditing. I
+              collaborated with design leaders across all 3 departments to
+              understand the current design systems in place and design
+              practices, as well as collect samples from design screens. I
+              compiled a chart of how typography is being used across the web
+              teams so that I could easily compare them.
+            </p>
+          </Col>
+        </Row>
+        <Row className={styles.centerFlex}>
+          <Col className={styles.centerFlex} s={12} l={7}>
+            <Image path={"whoop/recommendation.png"} />
+          </Col>
+          <Col className={styles.centerFlex} s={12} l={5}>
+            <p>
+              I composed a design system recommendation that was a middle ground
+              for all the similarities and differences after comparing them
+              using the above chart. I kept in mind that our customer facing
+              styles should take priority, as any large changes on that end can
+              disrupt the user experience and have larger consequences for the
+              brand image.
+            </p>
+          </Col>
+        </Row>
+        <p>
+          After multiple rounds of approvals and tweaking, I documented and
+          built the design system into a shared storybook library so developers
+          could easily implement it into the code base. Type styles were only
+          applied within ".whoop-typography" containers so they were opt-in.
+          Furthermore, the design system accounted for multiple display widths
+          and perfectly aligned with the existing mobile design system, which
+          ensures scalability and creates consistentcy across the brand.
+        </p>
+        <Row className={styles.centerFlex}>
+          <Col className={styles.centerFlex} s={12} l={7}>
+            <Image path={"whoop/spacing.png"} />
+          </Col>
+          <Col className={styles.centerFlex} s={12} l={5}>
+            <p>
+              In addition to creating a typography design system, the design
+              team decided that we wanted to move towards a 4px grid system.
+              This creates visual comfort for the user. To do this, I
+              implemented a spacing library onto storybook so developers can
+              easily access and implement predefined space using classes and
+              variables.
+            </p>
+          </Col>
+        </Row>
       </div>
-      <p>Huge shoutout to the amazing team I got to work with! :)</p>
+      <p>
+        I want to give a huge shoutout to the amazing team I got to work with!
+        Thank you so much to Mark Flores and my enterprise team, as well as the
+        incredible design team for such an amazing co-op experience. :)
+      </p>
     </div>
   )
 );
