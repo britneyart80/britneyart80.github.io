@@ -11,6 +11,7 @@ export default new PageDetail(
   "ReactJS, Material UI, Java, PostgreSQL, UX Research/Design, Design Systems",
   (
     <div className={styles.content}>
+      <h5>Overview</h5>
       <p>
         Whoop is a fast-growing fitness wearable startup and during Fall 2020 I
         worked on the Enterprise team (now known as Whoop Unite) as a Web
@@ -164,11 +165,50 @@ export default new PageDetail(
           </Col>
         </Row>
       </div>
+      <h5>Special Thanks</h5>
       <p>
         I want to give a huge shoutout to the amazing team I got to work with!
         Thank you so much to Mark Flores and my enterprise team, as well as the
-        incredible design team for such an amazing co-op experience. :)
+        incredible design team for such an amazing co-op experience. This was a
+        place where I came into work excited to make the next great contribution
+        and I will always be grateful for the community we built as a small team
+        :)
       </p>
+
+      <h5>Recommendations</h5>
+      <div className={styles.recommendations}>
+        <h6>Mark Flores - VP of Software @ Whoop</h6>
+        <p>
+          "Britney was an amazing co-op who had a can-do and positive attitude.
+          Not only did she do a stellar job at web development, but she was able
+          to lead a cross-department effort around styling. Her direct team
+          loved working with her and she consistently delivered. Finally,
+          Britney went above and beyond by partnering with Design directly to
+          help out. If I could hire her immediately, I would bring her onboard
+          asap."
+        </p>
+        <h6>Beth Chappell - Product Design Manager @ Whoop</h6>
+        <p>
+          "Britney is an absolute delight to work with! We worked together on
+          the enterprise team during her 6 month co-op with WHOOP in 2021. As
+          the product design lead, Britney and I collaborated on a daily basis
+          where I would review her front-end contributions to the product, as
+          well as task her with supporting me in design projects. I challenged
+          Britney to jump into a new realm of sketching ideas, prototyping in
+          Figma, presenting solutions in the perspective of the user in design
+          critiques, to then taking her ideas and building them right into the
+          product. She blew me away with her optimism towards navigating
+          ambiguous territories and willingness to do more than the average
+          engineer would be expected to. She would take initiative and even
+          share articles with me on UX trends that would leave me learning more
+          about building scalable products through our collaboration. Britney
+          brings a go-get-it attitude with an eagerness to take in and learn as
+          much as she can, takes feedback well, and brings a special energy to
+          the team that makes coming to work together a pleasure. She would be a
+          fabulous addition to any team, and I would be thrilled to call her my
+          co-worker again one day!"
+        </p>
+      </div>
     </div>
   )
 );
