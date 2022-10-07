@@ -12,7 +12,7 @@ const Home = () => {
         <Col l={7} m={6} s={12} className={styles.col2}>
           <div className={styles.colContent}>
             <h2>Hey! I'm Britney.</h2>
-            <h6>6
+            <h6>
               I’m a front end developer and artist with a passion for creating
               seamless user experiences. Here you can learn more about me and my
               selected projects.
