@@ -2,6 +2,14 @@ import Experience from "./experience";
 
 const codeExperiences = [
   new Experience(
+    "SIMON Markets Internship",
+    new Date(2022, 5),
+    new Date(2022, 7),
+    "UI Engineering internship collaborating with design/backend interns to build a platform that allows investors to crowdsource millions for alternative investments.",
+    "experiences/simon.png",
+    "/code/simon"
+  ),
+  new Experience(
     "WHOOP Co-op",
     new Date(2021, 6),
     new Date(2021, 11),
@@ -26,14 +34,13 @@ const codeExperiences = [
     "/code/asics"
   ),
   new Experience(
-    "SIMON Markets Internship",
-    new Date(2022, 5),
-    new Date(2022, 7),
-    "UI Engineering internship collaborating with design/backend interns to build a platform that allows investors to crowdsource millions for alternative investments.",
-    "experiences/simon.png",
-    "/code/simon"
+    "Beyond the curve",
+    new Date(2020, 7),
+    new Date(2020, 8),
+    "Informational website for a tutoring company based in LA. Built using React and Bootstrap.",
+    "experiences/btc.gif",
+    "/code/beyond-the-curve"
   ),
-
   new Experience(
     "Tetris",
     new Date(2020, 2),
@@ -41,14 +48,6 @@ const codeExperiences = [
     "A fully featured game of tetris using python and the pygame library.",
     "experiences/tetris.gif",
     "/code/tetris"
-  ),
-  new Experience(
-    "Beyond the curve",
-    new Date(2020, 7),
-    new Date(2020, 8),
-    "Informational website for a tutoring company based in LA. Built using React and Bootstrap.",
-    "experiences/btc.gif",
-    "/code/beyond-the-curve"
   ),
   new Experience(
     "Prepper",

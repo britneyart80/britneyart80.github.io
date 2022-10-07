@@ -65,6 +65,27 @@ export default new PageDetail(
         me into the incredible company culture at SIMON. Best of luck with the
         iCapital Acquisition :)
       </p>
+      <h5>Recommendations</h5>
+      <div className={styles.recommendations}>
+        <h6>Alana Ruth - UI Engineer @ Simon Markets (now iCapital)</h6>
+        <p>
+          "From the day I met Britney, I knew that her strong communication
+          skills, desire to learn, and her extensive real world engineering
+          experience would propel her to make tangible impacts to our team. I
+          was Britney's manager for the Summer 2022 internship program at SIMON
+          (now iCapital); I could not have wished for a more delightful and
+          driven mentee. In just 10 weeks, Britney successfully implemented a
+          new Structured Investments workflow platform using React and Redux,
+          the latter of which she did not have experience in. Additionally,
+          Britney took the initiative to lead the Backend and UX interns in
+          collaborating on their full-stack project, ensuring a fluid,
+          user-friendly experience. Despite our optional in-office policy,
+          Britney's passion for her work and her colleagues drove her to come
+          into the office daily with a positive and productive attitude. I would
+          highly recommend Britney as a strong technical and social addition to
+          any team."
+        </p>
+      </div>
     </div>
   )
 );
