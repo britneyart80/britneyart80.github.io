@@ -13,20 +13,12 @@
 
   ul li {
     margin: 16px 0;
-
     a {
       display: block;
       padding: 4px;
       color: c.$grey;
       transition-duration: 0.3s;
       transform-origin: left;
-    }
-
-    &:hover a {
-      transform: scale(1.1);
-      transform-origin: left;
-      color: black;
-      transition-duration: 0.3s;
     }
   }
 }
