@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[5379],{5379:function(e,n,t){t.r(n),n.default={content:"whoop_content__XND00",centerFlex:"whoop_centerFlex__njitt",recommendations:"whoop_recommendations__qF0HB"}}}]);
+//# sourceMappingURL=5379.df1d19a5.chunk.js.map

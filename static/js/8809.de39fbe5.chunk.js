@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[8809],{8809:function(p,e,a){p.exports=a.p+"static/media/spacing.24e307ae81bcfb083e7b.png"}}]);

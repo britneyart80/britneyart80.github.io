@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[6260],{6260:function(o,t,_){_.r(t),t.default={root:"portfolio_root__sDjAO",caption:"portfolio_caption__bjl0p","tile-2":"portfolio_tile-2__hhZ8s",cursor:"portfolio_cursor__4go-J",content:"portfolio_content__M70bj",imgContainer:"portfolio_imgContainer__bYguT",triple:"portfolio_triple__ET-ea",typography:"portfolio_typography__GkDpb",link:"portfolio_link__1Huh4"}}}]);
+//# sourceMappingURL=6260.1dddee99.chunk.js.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/4467.0ff00dbf.chunk.css","mappings":"AAEA,sBACE","sources":["pageDetails/asics/asics.module.scss"],"sourcesContent":["@use \"../../style/colors.scss\" as c;\n\n.content {\n  width: 100%;\n}\n"],"names":[],"sourceRoot":""}

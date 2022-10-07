@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[5379],{5379:function(e,t,n){n.r(t),t.default={content:"whoop_content__XND00",centerFlex:"whoop_centerFlex__njitt"}}}]);
-//# sourceMappingURL=5379.ab174877.chunk.js.map
