@@ -86,7 +86,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 148px;
+  padding: 0 124px;
 
   h5 {
     position: relative;
@@ -117,10 +117,24 @@
   .container {
     padding: 0 16px;
 
+    .content {
+      padding: 0 80px;
+    }
+
     .headerContainer {
       .heading {
         top: 50%;
       }
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    padding: 0;
+
+    .content {
+      padding: 0 48px;
     }
   }
 }
