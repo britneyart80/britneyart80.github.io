@@ -40,9 +40,8 @@
       align-items: center;
       justify-content: center;
 
-      h2 {
+      h1 {
         position: relative;
-        display: inline;
         width: max-content;
         color: c.$grey;
 
@@ -82,12 +81,24 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   .container {
     padding: 0 8px;
 
     .row .col2 {
       margin-top: 64px;
+
+      .colContent {
+        h1 {
+          left: 50%;
+          right: 0;
+          transform: translateX(-50%);
+        }
+        h6,
+        p {
+          text-align: center;
+        }
+      }
     }
 
     .caption {

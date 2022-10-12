@@ -22,7 +22,7 @@ const About = () => {
     <div className={styles.container}>
       <div className={styles.bigText}>about me</div>
       <Row className={styles.row}>
-        <Col m={7} s={12}>
+        <Col l={7} m={6} s={12}>
           <Parallax
             image={<img className={styles.headshot} alt="" src={headshot} />}
             options={{
@@ -57,22 +57,14 @@ const About = () => {
             </a>
           </div>
         </Col>
-        <Col className={styles.content} m={5} s={12}>
+        <Col className={styles.content} l={5} m={6} s={12}>
           <p>
             Thanks for stopping by! I'm Britney, a fourth year computer science
             major at Northeastern University, with a minor in interaction
-            design. ​During my time at Northeastern, I've completed two fulltime
-            co-ops and one internship which gave me real-life industry
-            experience working and collaborating in agile teams, and has exposed
-            me to a myriad of software and design technologies. I also worked on
-            the e-board for Northeastern's Women in Tech Club, hosting workshops
-            for young engineers.
-          </p>
-          <p>
-            As an art lover, I am passionate about creating seamless and
-            impactful web experiences. I believe users should be at the
-            forefront of interface design and I'm so excited to help bridge the
-            gap between design and engineering.
+            design. In my work, I hope to create unique experiences through
+            software solutions. I believe users should be at the forefront of
+            interface design and I'm so excited to help bridge the gap between
+            design and engineering.
           </p>
           <p>
             Here, you'll be able to learn more about my experiences in

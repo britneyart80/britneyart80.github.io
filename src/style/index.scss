@@ -96,20 +96,6 @@ div.tile-2 {
   img {
     position: relative;
   }
-
-  &::before {
-    content: "";
-    background: url("../img/tangoFly.png");
-    background-repeat: no-repeat;
-    height: 50%;
-    width: 80%;
-    display: block;
-    position: absolute;
-    top: -33.5%;
-    left: 10%;
-    background-position-x: center;
-    background-size: contain;
-  }
 }
 
 // cursor styles

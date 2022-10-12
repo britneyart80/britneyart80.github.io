@@ -16,7 +16,7 @@ div.experience {
   }
 
   &:hover img {
-    transform: scale(1.45) rotate(3deg);
+    transform: scale(1.35) rotate(3deg);
     transition-duration: 0.5s;
   }
 
@@ -67,6 +67,11 @@ div.experience {
     .content {
       padding: 48px 24px;
       padding-bottom: 0;
+    }
+
+    &:hover img {
+      transform: scale(1.15) rotate(3deg);
+      transition-duration: 0.5s;
     }
   }
 }
