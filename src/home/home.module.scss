@@ -105,8 +105,8 @@
   .container {
     padding: 0 8px;
 
-    .row .col2 {
-      margin-top: 64px;
+    .row .content {
+      margin-top: 24px;
 
       .colContent {
         h1 {
@@ -119,6 +119,11 @@
           text-align: center;
         }
       }
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
     }
 
     .caption {
