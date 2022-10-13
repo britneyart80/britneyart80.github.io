@@ -6,7 +6,7 @@
 
   &::before {
     content: " ";
-    height: 50%;
+    height: 30%;
     width: 105%;
     display: block;
     position: absolute;
@@ -15,6 +15,27 @@
     left: -5%;
     background: c.$green-alpha-2;
     z-index: -1;
+  }
+
+  .socials {
+    border-top: 2px solid c.$green;
+    margin-top: 24px;
+    padding-top: 24px;
+
+    p {
+      color: c.$grey;
+    }
+
+    img {
+      width: 18px;
+    }
+
+    a {
+      position: relative;
+      display: inline;
+      padding: 4px 16px;
+      color: black;
+    }
   }
 
   .row {
@@ -28,13 +49,12 @@
       max-height: 85vh;
     }
 
-    .col1 {
+    .illustration {
       margin: 28px 0;
       text-align: center;
     }
 
-    .col2 {
-      margin: 28px 0;
+    .content {
       display: flex;
       flex-direction: column;
       align-items: center;
