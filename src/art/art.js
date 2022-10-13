@@ -32,12 +32,6 @@ const Art = () => {
             {paths && <Grid paths={paths} boxed />}
           </div>
         </Row>
-        <div>
-          <h4 className={styles.sectionHeader}> Design Projects.</h4>
-          <div className={styles.designContent}>
-            <div className={styles.comingSoon}> COMING SOON</div>
-          </div>
-        </div>
       </div>
     </div>
   );

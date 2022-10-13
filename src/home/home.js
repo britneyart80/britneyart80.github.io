@@ -11,7 +11,7 @@ const Home = () => {
         </Col>
         <Col l={7} m={6} s={12} className={styles.col2}>
           <div className={styles.colContent}>
-            <h1>Hey! I'm Britney.</h1>
+            <h1>Hey! I'm Britney</h1>
             <h6>
               I’m a front end developer and artist with a passion for creating
               seamless user experiences. Here you can learn more about me and my

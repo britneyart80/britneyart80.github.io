@@ -18,14 +18,6 @@ const codeExperiences = [
     "/code/whoop"
   ),
   new Experience(
-    "Portfolio",
-    new Date(2022, 1),
-    new Date(2022, 6),
-    "Designed and prototyped in Figma, then developed in React using Google's Materialize CSS.",
-    "experiences/portfolio.gif",
-    "/code/portfolio"
-  ),
-  new Experience(
     "ASICS Digital Co-op",
     new Date(2020, 0),
     new Date(2020, 11),
@@ -56,6 +48,14 @@ const codeExperiences = [
     "Designed and developed full-stack SPA for meal prepping. Implemented using React, Bootstrap, and an Express/MongoDB API hosted on heroku.",
     "experiences/prepper.gif",
     "/code/prepper"
+  ),
+  new Experience(
+    "Portfolio",
+    new Date(2022, 1),
+    new Date(2022, 6),
+    "Designed and prototyped in Figma, then developed in React using Google's Materialize CSS.",
+    "experiences/portfolio.gif",
+    "/code/portfolio"
   ),
   // new Experience(
   //   "Tic Tac Toe",
