@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/5123.55f0acc6.chunk.css","mappings":"AACA,uBACE","sources":["pageDetails/tetris/tetris.module.scss"],"sourcesContent":["@use \"../../style/colors.scss\" as c;\n.content {\n  width: 100%;\n}\n"],"names":[],"sourceRoot":""}
