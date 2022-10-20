@@ -53,7 +53,7 @@ export default new PageDetail(
       <p>
         Once back-end was set up, I moved to implementing front-end
         functionality and styling. Along the way, there were both front-end and
-        back-end bugs and I utilized the terminal/browser console.logs() a lot
+        back-end bugs, and I utilized the terminal/browser console.logs() a lot
         in the process of debugging. This helped me easily trace back to the
         source of the problem. To reduce the amount of bug encounters, I always
         planned out in my head how I wanted to implement the structure of
