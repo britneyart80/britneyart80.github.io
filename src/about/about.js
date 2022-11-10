@@ -1,6 +1,6 @@
 import { Col, Row, Parallax } from "react-materialize";
 import styles from "./about.module.scss";
-import headshot from "../img/headshot.jpg";
+import headshot from "../img/headshot2.jpg";
 import email from "../img/email.svg";
 import github from "../img/github.svg";
 import linkedin from "../img/linkedin.svg";
