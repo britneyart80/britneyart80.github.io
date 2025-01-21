@@ -2,6 +2,14 @@ import Experience from "./experience";
 
 const codeExperiences = [
   new Experience(
+    "SWE @ Tesla",
+    new Date(2023, 2),
+    null,
+    "Designing and developing Tesla's in-house data analytics platform that drive production decisions for Cybertruck batteries ⚡",
+    "experiences/tesla.gif",
+    "/code/tesla"
+  ),
+  new Experience(
     "SIMON Markets Internship",
     new Date(2022, 5),
     new Date(2022, 7),

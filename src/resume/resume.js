@@ -15,15 +15,12 @@ const Resume = () => {
         }}
         waves="light"
       >
-        <a
-          href={file}
-          download={"Britney_Chen_Resume"}
-        >
+        <a href={file} download={"Britney_Chen_Resume"}>
           DOWNLOAD
           <Icon right>download</Icon>
         </a>
       </Button>
-      <img src={res} alt="resume"/>
+      <img src={res} alt="resume" />
     </div>
   );
 };

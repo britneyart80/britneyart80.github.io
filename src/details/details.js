@@ -15,7 +15,7 @@ const CodeDetails = ({ type }) => {
     promise.then((d) => {
       setDetail(d.default);
     });
-  }, []);
+  }, [id]);
 
   return (
     detail && (

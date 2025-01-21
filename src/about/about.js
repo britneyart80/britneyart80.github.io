@@ -3,6 +3,7 @@ import styles from "./about.module.scss";
 import headshot from "../img/headshot2.jpg";
 import email from "../img/email.svg";
 import github from "../img/github.svg";
+
 import linkedin from "../img/linkedin.svg";
 import { useEffect, useState } from "react";
 import Grid from "../components/grid/grid";
@@ -34,42 +35,47 @@ const About = () => {
             <a
               className={styles.social}
               target="_blank"
+              rel="noreferrer"
               href="https://linkedin.com/in/britney-chen-08/"
             >
-              <img src={linkedin} />
+              <img src={linkedin} alt="linkedin:britney-chen-08" />
               LINKED IN
             </a>
             <a
               className={styles.social}
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/britneyart80"
             >
-              <img src={github} />
+              <img src={github} alt="github:britneyart80" />
               GITHUB
             </a>
             <a
               className={styles.social}
               target="_blank"
+              rel="noreferrer"
               href="mailto:britneychen08@gmail.com"
             >
-              <img src={email} />
+              <img src={email} alt="email:britneychen08@gmail.cok" />
               EMAIL
             </a>
           </div>
         </Col>
         <Col className={styles.content} l={5} m={6} s={12}>
           <p>
-            Thanks for stopping by! I'm Britney, a fourth year computer science
-            major at Northeastern University, with a minor in interaction
-            design. In my work, I hope to create unique experiences through
-            software solutions. I believe users should be at the forefront of
-            interface design and I'm so excited to help bridge the gap between
-            design and engineering.
+            Thanks for stopping by! I'm Britney - a software engineer at Tesla
+            proud to be building the most advanced in-house data analytics
+            platform in the cell manufacturing industry. 🔋 In my work, I have a
+            track record of creating elegant and impactful software solutions
+            that stand out for their functionality and user-friendly design. I’m
+            deeply passionate about bridging the worlds of design and
+            engineering to craft products that not only drive meaningful
+            outcomes but also deliver experiences people truly love.
           </p>
           <p>
-            Here, you'll be able to learn more about my experiences in
-            engineering and design. Outside of work, you can find me travelling
-            the world, finding good eats, and hanging out with my parrot!
+            Here, you'll be able to learn more about my work experience. Outside
+            of work, you can find me travelling the world, finding good eats,
+            and hanging out with my parrot!
           </p>
         </Col>
       </Row>
