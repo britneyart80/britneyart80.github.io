@@ -24,23 +24,26 @@ const Home = () => {
               <a
                 className={styles.social}
                 target="_blank"
-                href="https://linkedin.com/in/britney-chen-08/"
+                href="https://linkedin.com/in/chenbritney/"
+                rel="noreferrer"
               >
-                <img src={linkedin} />
+                <img src={linkedin} alt="linkedin:chenbritney" />
               </a>
               <a
                 className={styles.social}
                 target="_blank"
                 href="https://github.com/britneyart80"
+                rel="noreferrer"
               >
-                <img src={github} />
+                <img src={github} alt="github:britneyart80" />
               </a>
               <a
                 className={styles.social}
                 target="_blank"
                 href="mailto:britneychen08@gmail.com"
+                rel="noreferrer"
               >
-                <img src={email} />
+                <img src={email} alt="email:britneychen08@gmail.com" />
               </a>
             </div>
           </div>

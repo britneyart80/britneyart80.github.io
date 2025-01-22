@@ -36,9 +36,9 @@ const About = () => {
               className={styles.social}
               target="_blank"
               rel="noreferrer"
-              href="https://linkedin.com/in/britney-chen-08/"
+              href="https://linkedin.com/in/chenbritney/"
             >
-              <img src={linkedin} alt="linkedin:britney-chen-08" />
+              <img src={linkedin} alt="linkedin:chenbritney" />
               LINKED IN
             </a>
             <a
@@ -56,7 +56,7 @@ const About = () => {
               rel="noreferrer"
               href="mailto:britneychen08@gmail.com"
             >
-              <img src={email} alt="email:britneychen08@gmail.cok" />
+              <img src={email} alt="email:britneychen08@gmail.com" />
               EMAIL
             </a>
           </div>
