@@ -15,7 +15,7 @@ const Resume = () => {
         }}
         waves="light"
       >
-        <a href={file} download={"Britney_Chen_Resume"}>
+        <a href={file} download={"Britney_Chen_Software_Engineer_Resume"}>
           DOWNLOAD
           <Icon right>download</Icon>
         </a>

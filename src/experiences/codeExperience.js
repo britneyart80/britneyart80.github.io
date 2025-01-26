@@ -1,9 +1,11 @@
 import Experience from "./experience";
 
+// month starts at 0
+
 const codeExperiences = [
   new Experience(
     "SWE @ Tesla",
-    new Date(2023, 2),
+    new Date(2023, 1),
     null,
     "Designing and developing Tesla's in-house data analytics platform that drive production decisions for Cybertruck batteries ⚡",
     "experiences/tesla.gif",
