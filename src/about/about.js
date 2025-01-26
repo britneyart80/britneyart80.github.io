@@ -68,15 +68,13 @@ const About = () => {
             platform for battery manufacturing. 🔋
           </p>
           <p>
-            As an engineer, I would describe myself as curious, a fast learner
-            and adaptable. I have a track record of creating elegant and
-            impactful React applications solutions that stand out for their
-            functionality and user-friendly design. I’m deeply passionate about
-            bridging the worlds of design and engineering to craft products that
-            not only drive high impact outcomes but also deliver experiences
-            people love. I've also contributed to writing well-designed REST +
-            GraphQL APIs, writing high volume data pipelines and building
-            services within distributed systems.
+            I have a track record of creating impactful, data intensive
+            applications that stand out for their functionality and
+            user-friendly design. I love bridging the worlds of design and
+            engineering to craft products that not only drive high impact
+            outcomes but also deliver great UX. I've also contributed to writing
+            well-designed REST + GraphQL APIs, writing high volume data
+            pipelines and building services within distributed systems.
           </p>
           <p>
             Here, you'll be able to learn more about my work experience. Outside
