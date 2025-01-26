@@ -16,9 +16,9 @@ const Home = () => {
           <div className={styles.colContent}>
             <h1>Hey! I'm Britney</h1>
             <h6>
-              I’m a front end developer and artist with a passion for creating
-              seamless user experiences. Here you can learn more about me and my
-              selected projects.
+              I’m a software engineer and artist with a passion for creating
+              seamless and high impact user experiences. Here you can learn more
+              about me and my selected projects.
             </h6>
             <div className={styles.socials}>
               <a
